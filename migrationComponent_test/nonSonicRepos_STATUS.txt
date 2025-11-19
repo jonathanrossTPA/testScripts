@@ -1,0 +1,100 @@
+NON-SONIC REPOSITORIES - ANALYSIS STATUS
+================================================================================
+
+Total Repositories: 3203
+Status: List extracted from componentsResponse.json
+
+WHAT WE HAVE:
+  ✓ Component names
+  ✓ Repository URLs
+  ✓ Organization/Team ownership
+  ✓ Parsed org and repo names
+
+WHAT WE NEED (Requires GitHub API):
+  ⏳ Programming languages for each repo
+  ⏳ Presence of helmfile.d directory
+  ⏳ Monorepo detection
+
+TOP 10 ORGANIZATIONS:
+--------------------------------------------------------------------------------
+ 1. Hackathon                                 406 repos
+ 2. cps-eu                                    151 repos
+ 3. WTE                                       129 repos
+ 4. https:                                    120 repos
+ 5. Infrastructure                            117 repos
+ 6. jetconnect                                112 repos
+ 7. just-data                                  75 repos
+ 8. ca-customer                                67 repos
+ 9. cps                                        52 repos
+10. operations-order-management-ta             50 repos
+
+SAMPLE REPOSITORIES (First 30):
+--------------------------------------------------------------------------------
+  1. marathon
+     https://github.je-labs.com/platform-self-service/marathon-deploys
+  2. displayadscampaigns
+     https://github.je-labs.com/display-advertisement/displayadscampaigns
+  3. miroauditandaccessremediation
+     https://github.je-labs.com/WTE/miroauditandaccessremediation
+  4. zendeskchattoggle
+     https://github.je-labs.com/WTE/ZendeskChatToggle
+  5. orderinjectionstatusupdater
+     https://github.je-labs.com/jetconnect/order-injection-status-updater
+  6. cosigninfra
+     https://github.je-labs.com/InfoSec/cosign-infra
+  7. customerrecentorders
+     https://github.je-labs.com/ca-customer/customer_recent_orders
+  8. concourseplt
+     https://github.je-labs.com/Infrastructure/concourseplt
+  9. tksmtp
+     https://github.je-labs.com/GBPI/aws-infrastructure-gbpi
+ 10. helmmissingcontainermetrics
+     https://github.je-labs.com/cps-eu/helm-charts-missing-container-metrics
+ 11. socautopythonlayer
+     https://github.je-labs.com/SOC/socautopythonlayer
+ 12. legacymenuconverter
+     https://github.je-labs.com/jetconnect/legacy-menu-converter
+ 13. notificationsandroid
+     https://github.je-labs.com/Android/app-core
+ 14. cnimetricshelper
+     https://github.je-labs.com/cps/helm-core
+ 15. slackchannelnamingenforcer
+     https://github.je-labs.com/WTE/SlackChannelNamingEnforcer
+ 16. logstash
+     https://github.je-labs.com/ansible-roles/configure-logstash
+ 17. liveopsdds
+     https://github.je-labs.com/ca-ops/live_ops_dds
+ 18. menusyncstatusupdater
+     https://github.je-labs.com/jetconnect/menu-sync-status-updater
+ 19. pythonbak
+     https://github.je-labs.com/cps-eu/docker-python-bak
+ 20. checkouteventsconnect
+     https://github.je-labs.com/checkout/checkouteventsconnect
+ 21. chatcontroller
+     https://github.je-labs.com/team-x/chat-controller
+ 22. giftcardsdb
+     https://github.je-labs.com/GiftCards/JE.GiftCards.DB
+ 23. testcomponentc8xs
+     https://github.je-labs.com/Hackathon/testcomponentc8xs
+ 24. talsupertest
+     https://github.je-labs.com/DevEx/talsupertest
+ 25. puppetfir
+     https://github.je-labs.com/puppetmodules/puppet-fir
+ 26. mlpslackbotlambda
+     https://github.je-labs.com/ml-platform/mlp-slackbot-lambda
+ 27. takeawayawssso
+     https://github.je-labs.com/gbpi/aws-sso-legacy-takeaway
+ 28. foodpreparationscheduler
+     https://git.takeaway.com/projects/5210
+ 29. tkkubecost
+     https://github.je-labs.com/jetconnect/platform-k8s
+ 30. infoseckrilambdas
+     https://github.je-labs.com/InfoSec/InfoSecKRILambdas
+
+... and 3173 more repositories
+
+FILES GENERATED:
+  • nonSonicRepos_CurrentStatus.csv  - All repos in spreadsheet format
+  • nonSonicRepos_CurrentStatus.md   - Markdown documentation
+  • nonSonicRepoURLs.txt             - Plain list of URLs
+  • repoAnalysisTemplate.json        - Structured data for API analysis

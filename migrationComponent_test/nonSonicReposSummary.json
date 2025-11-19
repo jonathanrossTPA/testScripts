@@ -1,0 +1,113 @@
+{
+  "totalNonSonicRepos": 3203,
+  "organizationCount": 225,
+  "topOrganizations": [
+    {
+      "org": "Hackathon",
+      "count": 406
+    },
+    {
+      "org": "cps-eu",
+      "count": 151
+    },
+    {
+      "org": "WTE",
+      "count": 129
+    },
+    {
+      "org": "https:",
+      "count": 120
+    },
+    {
+      "org": "Infrastructure",
+      "count": 117
+    },
+    {
+      "org": "jetconnect",
+      "count": 112
+    },
+    {
+      "org": "just-data",
+      "count": 75
+    },
+    {
+      "org": "ca-customer",
+      "count": 67
+    },
+    {
+      "org": "cps",
+      "count": 52
+    },
+    {
+      "org": "operations-order-management-ta",
+      "count": 50
+    }
+  ],
+  "analysisNeeded": {
+    "languages": true,
+    "helmfileD": true,
+    "monorepoCheck": true
+  },
+  "sampleRepos": [
+    {
+      "component": "marathon",
+      "repo": "https://github.je-labs.com/platform-self-service/marathon-deploys",
+      "org": "platform-self-service",
+      "repoName": "marathon-deploys"
+    },
+    {
+      "component": "displayadscampaigns",
+      "repo": "https://github.je-labs.com/display-advertisement/displayadscampaigns",
+      "org": "display-advertisement",
+      "repoName": "displayadscampaigns"
+    },
+    {
+      "component": "miroauditandaccessremediation",
+      "repo": "https://github.je-labs.com/WTE/miroauditandaccessremediation",
+      "org": "WTE",
+      "repoName": "miroauditandaccessremediation"
+    },
+    {
+      "component": "zendeskchattoggle",
+      "repo": "https://github.je-labs.com/WTE/ZendeskChatToggle",
+      "org": "WTE",
+      "repoName": "ZendeskChatToggle"
+    },
+    {
+      "component": "orderinjectionstatusupdater",
+      "repo": "https://github.je-labs.com/jetconnect/order-injection-status-updater",
+      "org": "jetconnect",
+      "repoName": "order-injection-status-updater"
+    },
+    {
+      "component": "cosigninfra",
+      "repo": "https://github.je-labs.com/InfoSec/cosign-infra",
+      "org": "InfoSec",
+      "repoName": "cosign-infra"
+    },
+    {
+      "component": "customerrecentorders",
+      "repo": "https://github.je-labs.com/ca-customer/customer_recent_orders",
+      "org": "ca-customer",
+      "repoName": "customer_recent_orders"
+    },
+    {
+      "component": "concourseplt",
+      "repo": "https://github.je-labs.com/Infrastructure/concourseplt",
+      "org": "Infrastructure",
+      "repoName": "concourseplt"
+    },
+    {
+      "component": "tksmtp",
+      "repo": "https://github.je-labs.com/GBPI/aws-infrastructure-gbpi",
+      "org": "GBPI",
+      "repoName": "aws-infrastructure-gbpi"
+    },
+    {
+      "component": "helmmissingcontainermetrics",
+      "repo": "https://github.je-labs.com/cps-eu/helm-charts-missing-container-metrics",
+      "org": "cps-eu",
+      "repoName": "helm-charts-missing-container-metrics"
+    }
+  ]
+}
