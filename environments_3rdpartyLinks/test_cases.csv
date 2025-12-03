@@ -1,0 +1,510 @@
+Test Case ID,Test Name,Summary,Steps to Test,Expected Result
+TC-001,Link Data Validation - alalcomenia-prod,Validates that all parameters within the links array contain valid non-empty data,"1. Load the environment's links array
+2. For each link object in the array:
+   - Check that title field exists and is not empty/null
+   - Check that url field exists and is not empty/null
+   - Check that icon field exists and is not empty/null
+   - Verify no fields contain only whitespace characters
+3. Log validation results","✅ PASS: All link parameters (title, url, icon) are populated with non-empty values
+❌ FAIL: Any parameter is missing, null, or contains only whitespace"
+TC-002,Link Data Validation - alalcomenia-staging,Validates that all parameters within the links array contain valid non-empty data,"1. Load the environment's links array
+2. For each link object in the array:
+   - Check that title field exists and is not empty/null
+   - Check that url field exists and is not empty/null
+   - Check that icon field exists and is not empty/null
+   - Verify no fields contain only whitespace characters
+3. Log validation results","✅ PASS: All link parameters (title, url, icon) are populated with non-empty values
+❌ FAIL: Any parameter is missing, null, or contains only whitespace"
+TC-003,Link Data Validation - algos-dev,Validates that all parameters within the links array contain valid non-empty data,"1. Load the environment's links array
+2. For each link object in the array:
+   - Check that title field exists and is not empty/null
+   - Check that url field exists and is not empty/null
+   - Check that icon field exists and is not empty/null
+   - Verify no fields contain only whitespace characters
+3. Log validation results","✅ PASS: All link parameters (title, url, icon) are populated with non-empty values
+❌ FAIL: Any parameter is missing, null, or contains only whitespace"
+TC-004,Link Data Validation - alloresto-production,Validates that all parameters within the links array contain valid non-empty data,"1. Load the environment's links array
+2. For each link object in the array:
+   - Check that title field exists and is not empty/null
+   - Check that url field exists and is not empty/null
+   - Check that icon field exists and is not empty/null
+   - Verify no fields contain only whitespace characters
+3. Log validation results","✅ PASS: All link parameters (title, url, icon) are populated with non-empty values
+❌ FAIL: Any parameter is missing, null, or contains only whitespace"
+TC-005,Link Data Validation - am-okta-production,Validates that all parameters within the links array contain valid non-empty data,"1. Load the environment's links array
+2. For each link object in the array:
+   - Check that title field exists and is not empty/null
+   - Check that url field exists and is not empty/null
+   - Check that icon field exists and is not empty/null
+   - Verify no fields contain only whitespace characters
+3. Log validation results","✅ PASS: All link parameters (title, url, icon) are populated with non-empty values
+❌ FAIL: Any parameter is missing, null, or contains only whitespace"
+TC-006,Link Data Validation - ap-northeast-1-pdv-staging-1,Validates that all parameters within the links array contain valid non-empty data,"1. Load the environment's links array
+2. For each link object in the array:
+   - Check that title field exists and is not empty/null
+   - Check that url field exists and is not empty/null
+   - Check that icon field exists and is not empty/null
+   - Verify no fields contain only whitespace characters
+3. Log validation results","✅ PASS: All link parameters (title, url, icon) are populated with non-empty values
+❌ FAIL: Any parameter is missing, null, or contains only whitespace"
+TC-007,Link Data Validation - ap-northeast-1-pmt-staging-1,Validates that all parameters within the links array contain valid non-empty data,"1. Load the environment's links array
+2. For each link object in the array:
+   - Check that title field exists and is not empty/null
+   - Check that url field exists and is not empty/null
+   - Check that icon field exists and is not empty/null
+   - Verify no fields contain only whitespace characters
+3. Log validation results","✅ PASS: All link parameters (title, url, icon) are populated with non-empty values
+❌ FAIL: Any parameter is missing, null, or contains only whitespace"
+TC-008,Link Data Validation - ap-northeast-1-tgw-prod,Validates that all parameters within the links array contain valid non-empty data,"1. Load the environment's links array
+2. For each link object in the array:
+   - Check that title field exists and is not empty/null
+   - Check that url field exists and is not empty/null
+   - Check that icon field exists and is not empty/null
+   - Verify no fields contain only whitespace characters
+3. Log validation results","✅ PASS: All link parameters (title, url, icon) are populated with non-empty values
+❌ FAIL: Any parameter is missing, null, or contains only whitespace"
+TC-009,Link Data Validation - ap-southeast-2-ing-prod-1,Validates that all parameters within the links array contain valid non-empty data,"1. Load the environment's links array
+2. For each link object in the array:
+   - Check that title field exists and is not empty/null
+   - Check that url field exists and is not empty/null
+   - Check that icon field exists and is not empty/null
+   - Verify no fields contain only whitespace characters
+3. Log validation results","✅ PASS: All link parameters (title, url, icon) are populated with non-empty values
+❌ FAIL: Any parameter is missing, null, or contains only whitespace"
+TC-010,Link Data Validation - ap-southeast-2-ing-qa-1,Validates that all parameters within the links array contain valid non-empty data,"1. Load the environment's links array
+2. For each link object in the array:
+   - Check that title field exists and is not empty/null
+   - Check that url field exists and is not empty/null
+   - Check that icon field exists and is not empty/null
+   - Verify no fields contain only whitespace characters
+3. Log validation results","✅ PASS: All link parameters (title, url, icon) are populated with non-empty values
+❌ FAIL: Any parameter is missing, null, or contains only whitespace"
+TC-101,alalcomenia-prod: Link 1 - AWS Console (aws),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL: https://orga.awsapps.com/start/#/console?account_id=026372558662
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-102,alalcomenia-prod: Link 2 - Datadog (datadog),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL: https://app.datadoghq.eu/logs/livetail?query=jet_env%3Aalalcomenia-prod
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-103,alalcomenia-prod: Link 3 - Gitlab (gitlab),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL: https://git.takeaway.com/sre/terraform/aws-infrastructure
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-104,alalcomenia-staging: Link 1 - AWS Console (aws),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from alalcomenia-staging environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-105,alalcomenia-staging: Link 2 - Datadog (datadog),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from alalcomenia-staging environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-106,alalcomenia-staging: Link 3 - Gitlab (gitlab),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from alalcomenia-staging environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-107,algos-dev: Link 1 - Alert Manager (alert-manager),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from algos-dev environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-108,algos-dev: Link 2 - AWS Console (aws),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from algos-dev environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-109,algos-dev: Link 3 - Consul (consul),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from algos-dev environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-110,algos-dev: Link 4 - Deployments (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from algos-dev environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-111,algos-dev: Link 5 - Grafana (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from algos-dev environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-112,algos-dev: Link 6 - Datadog (datadog),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from algos-dev environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-113,algos-dev: Link 7 - Prometheus (prometheus),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from algos-dev environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-114,algos-dev: Link 8 - Vault (vault),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from algos-dev environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-115,alloresto-production: Link 1 - Alert Manager (alert-manager),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from alloresto-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-116,alloresto-production: Link 2 - AWS Console (aws),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from alloresto-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-117,alloresto-production: Link 3 - Consul (consul),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from alloresto-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-118,alloresto-production: Link 4 - Deployments (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from alloresto-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-119,alloresto-production: Link 5 - Grafana (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from alloresto-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-120,alloresto-production: Link 6 - Datadog (datadog),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from alloresto-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-121,alloresto-production: Link 7 - Prometheus (prometheus),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from alloresto-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-122,alloresto-production: Link 8 - Vault (vault),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from alloresto-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-123,am-okta-production: Link 1 - Alert Manager (alert-manager),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from am-okta-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-124,am-okta-production: Link 2 - AWS Console (aws),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from am-okta-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-125,am-okta-production: Link 3 - Datadog (datadog),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from am-okta-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-126,am-okta-production: Link 4 - Deployments (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from am-okta-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-127,am-okta-production: Link 5 - Grafana (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from am-okta-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-128,am-okta-production: Link 6 - Kiali (kiali),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from am-okta-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-129,am-okta-production: Link 7 - Prometheus (prometheus),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from am-okta-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-130,am-okta-production: Link 8 - Vault (vault),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from am-okta-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-131,am-okta-production: Link 9 - Finout (finout),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from am-okta-production environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-132,ap-northeast-1-pdv-staging-1: Link 1 - Alert Manager (alert-manager),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pdv-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-133,ap-northeast-1-pdv-staging-1: Link 2 - AWS Console (aws),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pdv-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-134,ap-northeast-1-pdv-staging-1: Link 3 - Consul (consul),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pdv-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-135,ap-northeast-1-pdv-staging-1: Link 4 - Deployments (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pdv-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-136,ap-northeast-1-pdv-staging-1: Link 5 - Grafana (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pdv-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-137,ap-northeast-1-pdv-staging-1: Link 6 - Datadog (datadog),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pdv-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-138,ap-northeast-1-pdv-staging-1: Link 7 - Prometheus (prometheus),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pdv-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-139,ap-northeast-1-pdv-staging-1: Link 8 - Vault (vault),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pdv-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-140,ap-northeast-1-pmt-staging-1: Link 1 - Alert Manager (alert-manager),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pmt-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-141,ap-northeast-1-pmt-staging-1: Link 2 - AWS Console (aws),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pmt-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-142,ap-northeast-1-pmt-staging-1: Link 3 - Consul (consul),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pmt-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-143,ap-northeast-1-pmt-staging-1: Link 4 - Deployments (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pmt-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-144,ap-northeast-1-pmt-staging-1: Link 5 - Grafana (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pmt-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-145,ap-northeast-1-pmt-staging-1: Link 6 - Datadog (datadog),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pmt-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-146,ap-northeast-1-pmt-staging-1: Link 7 - Prometheus (prometheus),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pmt-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-147,ap-northeast-1-pmt-staging-1: Link 8 - Vault (vault),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-pmt-staging-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-148,ap-northeast-1-tgw-prod: Link 1 - Alert Manager (alert-manager),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-tgw-prod environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-149,ap-northeast-1-tgw-prod: Link 2 - Consul (consul),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-tgw-prod environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-150,ap-northeast-1-tgw-prod: Link 3 - Deployments (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-tgw-prod environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-151,ap-northeast-1-tgw-prod: Link 4 - Grafana (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-tgw-prod environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-152,ap-northeast-1-tgw-prod: Link 5 - Datadog (datadog),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-tgw-prod environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-153,ap-northeast-1-tgw-prod: Link 6 - Prometheus (prometheus),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-tgw-prod environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-154,ap-northeast-1-tgw-prod: Link 7 - Vault (vault),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-northeast-1-tgw-prod environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-155,ap-southeast-2-ing-prod-1: Link 1 - Alert Manager (alert-manager),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-prod-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-156,ap-southeast-2-ing-prod-1: Link 2 - Datadog (datadog),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-prod-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-157,ap-southeast-2-ing-prod-1: Link 3 - Deployments (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-prod-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-158,ap-southeast-2-ing-prod-1: Link 4 - Grafana (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-prod-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-159,ap-southeast-2-ing-prod-1: Link 5 - Kiali (kiali),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-prod-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-160,ap-southeast-2-ing-prod-1: Link 6 - Prometheus (prometheus),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-prod-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-161,ap-southeast-2-ing-prod-1: Link 7 - Vault (vault),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-prod-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-162,ap-southeast-2-ing-prod-1: Link 8 - Finout (finout),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-prod-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-163,ap-southeast-2-ing-qa-1: Link 1 - Alert Manager (alert-manager),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-qa-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-164,ap-southeast-2-ing-qa-1: Link 2 - Datadog (datadog),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-qa-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-165,ap-southeast-2-ing-qa-1: Link 3 - Deployments (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-qa-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-166,ap-southeast-2-ing-qa-1: Link 4 - Grafana (grafana),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-qa-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-167,ap-southeast-2-ing-qa-1: Link 5 - Kiali (kiali),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-qa-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-168,ap-southeast-2-ing-qa-1: Link 6 - Prometheus (prometheus),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-qa-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-169,ap-southeast-2-ing-qa-1: Link 7 - Vault (vault),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-qa-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-170,ap-southeast-2-ing-qa-1: Link 8 - Finout (finout),Checks URL accessibility and validates HTTP response status is not a dead link,"1. Extract URL from ap-southeast-2-ing-qa-1 environment
+2. Validate URL format (must be valid HTTP/HTTPS URL)
+3. Navigate to URL using Playwright page.goto() with 10-second timeout
+4. Capture HTTP response status code
+5. Verify status is less than 400","✅ PASS: URL format is valid, HTTP response status 200-399, page loads successfully within 10 seconds
+❌ FAIL: URL format invalid, HTTP status 400+, timeout exceeds 10 seconds, network error, or connection refused"
+TC-171,Link Summary Report,Aggregates and reports statistics about all tested environments and links,"1. Count total number of environments in the test set
+2. Count how many environments have links
+3. Count total number of links across all environments
+4. Generate breakdown of links per environment
+5. Log comprehensive summary to console","✅ PASS: Summary report generated successfully with statistics showing:
+- Total Environments: 10
+- Environments with Links: 10
+- Total Links to Check: 71
+- Breakdown of links per environment"
