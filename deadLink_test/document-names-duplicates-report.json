@@ -1,0 +1,1378 @@
+{
+  "metadata": {
+    "analysisDate": "2025-11-12T13:35:58.482Z",
+    "sourceFile": "C:\\Users\\JonathanRoss\\document-names-list.txt",
+    "summary": {
+      "totalItems": 1037,
+      "uniqueNames": 901,
+      "duplicateCount": 82,
+      "duplicateInstances": 136
+    }
+  },
+  "duplicates": [
+    {
+      "name": "Faq",
+      "count": 5,
+      "occurrences": [
+        {
+          "lineNumber": 4,
+          "originalLine": "4. Faq"
+        },
+        {
+          "lineNumber": 267,
+          "originalLine": "267. Faq"
+        },
+        {
+          "lineNumber": 288,
+          "originalLine": "288. Faq"
+        },
+        {
+          "lineNumber": 523,
+          "originalLine": "523. Faq"
+        },
+        {
+          "lineNumber": 959,
+          "originalLine": "959. Faq"
+        }
+      ]
+    },
+    {
+      "name": "Eks",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 9,
+          "originalLine": "9. Eks"
+        },
+        {
+          "lineNumber": 211,
+          "originalLine": "211. Eks"
+        },
+        {
+          "lineNumber": 913,
+          "originalLine": "913. Eks"
+        }
+      ]
+    },
+    {
+      "name": "Upgrade",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 16,
+          "originalLine": "16. Upgrade"
+        },
+        {
+          "lineNumber": 857,
+          "originalLine": "857. Upgrade"
+        }
+      ]
+    },
+    {
+      "name": "Disaster Recovery",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 21,
+          "originalLine": "21. Disaster Recovery"
+        },
+        {
+          "lineNumber": 886,
+          "originalLine": "886. Disaster Recovery"
+        }
+      ]
+    },
+    {
+      "name": "Projects",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 24,
+          "originalLine": "24. Projects"
+        },
+        {
+          "lineNumber": 559,
+          "originalLine": "559. Projects"
+        }
+      ]
+    },
+    {
+      "name": "Getting Started",
+      "count": 7,
+      "occurrences": [
+        {
+          "lineNumber": 26,
+          "originalLine": "26. Getting Started"
+        },
+        {
+          "lineNumber": 188,
+          "originalLine": "188. Getting Started"
+        },
+        {
+          "lineNumber": 524,
+          "originalLine": "524. Getting Started"
+        },
+        {
+          "lineNumber": 610,
+          "originalLine": "610. Getting Started"
+        },
+        {
+          "lineNumber": 616,
+          "originalLine": "616. Getting Started"
+        },
+        {
+          "lineNumber": 633,
+          "originalLine": "633. Getting Started"
+        },
+        {
+          "lineNumber": 637,
+          "originalLine": "637. Getting Started"
+        }
+      ]
+    },
+    {
+      "name": "Prerequisites",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 33,
+          "originalLine": "33. Prerequisites"
+        },
+        {
+          "lineNumber": 334,
+          "originalLine": "334. Prerequisites"
+        }
+      ]
+    },
+    {
+      "name": "Build Pr Workflow",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 35,
+          "originalLine": "35. Build Pr Workflow"
+        },
+        {
+          "lineNumber": 42,
+          "originalLine": "42. Build Pr Workflow"
+        }
+      ]
+    },
+    {
+      "name": "Deploy Pr Workflows",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 36,
+          "originalLine": "36. Deploy Pr Workflows"
+        },
+        {
+          "lineNumber": 43,
+          "originalLine": "43. Deploy Pr Workflows"
+        }
+      ]
+    },
+    {
+      "name": "Diff Pr Workflows",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 37,
+          "originalLine": "37. Diff Pr Workflows"
+        },
+        {
+          "lineNumber": 44,
+          "originalLine": "44. Diff Pr Workflows"
+        }
+      ]
+    },
+    {
+      "name": "Main Deployment Workflow",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 38,
+          "originalLine": "38. Main Deployment Workflow"
+        },
+        {
+          "lineNumber": 45,
+          "originalLine": "45. Main Deployment Workflow"
+        }
+      ]
+    },
+    {
+      "name": "Rollbacks",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 39,
+          "originalLine": "39. Rollbacks"
+        },
+        {
+          "lineNumber": 46,
+          "originalLine": "46. Rollbacks"
+        },
+        {
+          "lineNumber": 612,
+          "originalLine": "612. Rollbacks"
+        }
+      ]
+    },
+    {
+      "name": "Github Actions",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 41,
+          "originalLine": "41. Github Actions"
+        },
+        {
+          "lineNumber": 54,
+          "originalLine": "54. Github Actions"
+        }
+      ]
+    },
+    {
+      "name": "Terminology",
+      "count": 6,
+      "occurrences": [
+        {
+          "lineNumber": 51,
+          "originalLine": "51. Terminology"
+        },
+        {
+          "lineNumber": 742,
+          "originalLine": "742. Terminology"
+        },
+        {
+          "lineNumber": 802,
+          "originalLine": "802. Terminology"
+        },
+        {
+          "lineNumber": 824,
+          "originalLine": "824. Terminology"
+        },
+        {
+          "lineNumber": 832,
+          "originalLine": "832. Terminology"
+        },
+        {
+          "lineNumber": 844,
+          "originalLine": "844. Terminology"
+        }
+      ]
+    },
+    {
+      "name": "Refarch",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 62,
+          "originalLine": "62. Refarch"
+        },
+        {
+          "lineNumber": 99,
+          "originalLine": "99. Refarch"
+        }
+      ]
+    },
+    {
+      "name": "Tagging",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 65,
+          "originalLine": "65. Tagging"
+        },
+        {
+          "lineNumber": 209,
+          "originalLine": "209. Tagging"
+        }
+      ]
+    },
+    {
+      "name": "Events",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 67,
+          "originalLine": "67. Events"
+        },
+        {
+          "lineNumber": 747,
+          "originalLine": "747. Events"
+        }
+      ]
+    },
+    {
+      "name": "Service Catalog",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 71,
+          "originalLine": "71. Service Catalog"
+        },
+        {
+          "lineNumber": 254,
+          "originalLine": "254. Service Catalog"
+        }
+      ]
+    },
+    {
+      "name": "Logging",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 76,
+          "originalLine": "76. Logging"
+        },
+        {
+          "lineNumber": 197,
+          "originalLine": "197. Logging"
+        },
+        {
+          "lineNumber": 627,
+          "originalLine": "627. Logging"
+        }
+      ]
+    },
+    {
+      "name": "Dotnet",
+      "count": 4,
+      "occurrences": [
+        {
+          "lineNumber": 77,
+          "originalLine": "77. Dotnet"
+        },
+        {
+          "lineNumber": 80,
+          "originalLine": "80. Dotnet"
+        },
+        {
+          "lineNumber": 260,
+          "originalLine": "260. Dotnet"
+        },
+        {
+          "lineNumber": 615,
+          "originalLine": "615. Dotnet"
+        }
+      ]
+    },
+    {
+      "name": "Environment Mapping",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 93,
+          "originalLine": "93. Environment Mapping"
+        },
+        {
+          "lineNumber": 100,
+          "originalLine": "100. Environment Mapping"
+        }
+      ]
+    },
+    {
+      "name": "Cloudwatch",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 112,
+          "originalLine": "112. Cloudwatch"
+        },
+        {
+          "lineNumber": 199,
+          "originalLine": "199. Cloudwatch"
+        },
+        {
+          "lineNumber": 219,
+          "originalLine": "219. Cloudwatch"
+        }
+      ]
+    },
+    {
+      "name": "Dynamodb",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 121,
+          "originalLine": "121. Dynamodb"
+        },
+        {
+          "lineNumber": 1014,
+          "originalLine": "1014. Dynamodb"
+        }
+      ]
+    },
+    {
+      "name": "Specifications File",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 122,
+          "originalLine": "122. Specifications File"
+        },
+        {
+          "lineNumber": 127,
+          "originalLine": "127. Specifications File"
+        }
+      ]
+    },
+    {
+      "name": "Update Policy",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 123,
+          "originalLine": "123. Update Policy"
+        },
+        {
+          "lineNumber": 128,
+          "originalLine": "128. Update Policy"
+        }
+      ]
+    },
+    {
+      "name": "Tutorials",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 129,
+          "originalLine": "129. Tutorials"
+        },
+        {
+          "lineNumber": 762,
+          "originalLine": "762. Tutorials"
+        }
+      ]
+    },
+    {
+      "name": "Alerting",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 135,
+          "originalLine": "135. Alerting"
+        },
+        {
+          "lineNumber": 345,
+          "originalLine": "345. Alerting"
+        }
+      ]
+    },
+    {
+      "name": "Basics",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 137,
+          "originalLine": "137. Basics"
+        },
+        {
+          "lineNumber": 214,
+          "originalLine": "214. Basics"
+        },
+        {
+          "lineNumber": 231,
+          "originalLine": "231. Basics"
+        }
+      ]
+    },
+    {
+      "name": "General Guidance",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 144,
+          "originalLine": "144. General Guidance"
+        },
+        {
+          "lineNumber": 240,
+          "originalLine": "240. General Guidance"
+        }
+      ]
+    },
+    {
+      "name": "Support",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 146,
+          "originalLine": "146. Support"
+        },
+        {
+          "lineNumber": 909,
+          "originalLine": "909. Support"
+        }
+      ]
+    },
+    {
+      "name": "Guides",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 159,
+          "originalLine": "159. Guides"
+        },
+        {
+          "lineNumber": 501,
+          "originalLine": "501. Guides"
+        },
+        {
+          "lineNumber": 749,
+          "originalLine": "749. Guides"
+        }
+      ]
+    },
+    {
+      "name": "Access",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 166,
+          "originalLine": "166. Access"
+        },
+        {
+          "lineNumber": 287,
+          "originalLine": "287. Access"
+        }
+      ]
+    },
+    {
+      "name": "Contents",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 195,
+          "originalLine": "195. Contents"
+        },
+        {
+          "lineNumber": 196,
+          "originalLine": "196. Contents"
+        },
+        {
+          "lineNumber": 773,
+          "originalLine": "773. Contents"
+        }
+      ]
+    },
+    {
+      "name": "Grafana",
+      "count": 4,
+      "occurrences": [
+        {
+          "lineNumber": 198,
+          "originalLine": "198. Grafana"
+        },
+        {
+          "lineNumber": 224,
+          "originalLine": "224. Grafana"
+        },
+        {
+          "lineNumber": 257,
+          "originalLine": "257. Grafana"
+        },
+        {
+          "lineNumber": 570,
+          "originalLine": "570. Grafana"
+        }
+      ]
+    },
+    {
+      "name": "Datadog",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 202,
+          "originalLine": "202. Datadog"
+        },
+        {
+          "lineNumber": 220,
+          "originalLine": "220. Datadog"
+        },
+        {
+          "lineNumber": 248,
+          "originalLine": "248. Datadog"
+        }
+      ]
+    },
+    {
+      "name": "Pipelines",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 206,
+          "originalLine": "206. Pipelines"
+        },
+        {
+          "lineNumber": 887,
+          "originalLine": "887. Pipelines"
+        }
+      ]
+    },
+    {
+      "name": "Dashboards",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 222,
+          "originalLine": "222. Dashboards"
+        },
+        {
+          "lineNumber": 682,
+          "originalLine": "682. Dashboards"
+        }
+      ]
+    },
+    {
+      "name": "Prometheus",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 226,
+          "originalLine": "226. Prometheus"
+        },
+        {
+          "lineNumber": 622,
+          "originalLine": "622. Prometheus"
+        }
+      ]
+    },
+    {
+      "name": "Metric Types",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 230,
+          "originalLine": "230. Metric Types"
+        },
+        {
+          "lineNumber": 732,
+          "originalLine": "732. Metric Types"
+        }
+      ]
+    },
+    {
+      "name": "Practices",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 239,
+          "originalLine": "239. Practices"
+        },
+        {
+          "lineNumber": 796,
+          "originalLine": "796. Practices"
+        }
+      ]
+    },
+    {
+      "name": "Observability By Default",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 242,
+          "originalLine": "242. Observability By Default"
+        },
+        {
+          "lineNumber": 584,
+          "originalLine": "584. Observability By Default"
+        }
+      ]
+    },
+    {
+      "name": "Open Standards Open Source",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 243,
+          "originalLine": "243. Open Standards Open Source"
+        },
+        {
+          "lineNumber": 592,
+          "originalLine": "592. Open Standards Open Source"
+        }
+      ]
+    },
+    {
+      "name": "Guidance",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 262,
+          "originalLine": "262. Guidance"
+        },
+        {
+          "lineNumber": 269,
+          "originalLine": "269. Guidance"
+        }
+      ]
+    },
+    {
+      "name": "Troubleshooting",
+      "count": 5,
+      "occurrences": [
+        {
+          "lineNumber": 265,
+          "originalLine": "265. Troubleshooting"
+        },
+        {
+          "lineNumber": 323,
+          "originalLine": "323. Troubleshooting"
+        },
+        {
+          "lineNumber": 644,
+          "originalLine": "644. Troubleshooting"
+        },
+        {
+          "lineNumber": 881,
+          "originalLine": "881. Troubleshooting"
+        },
+        {
+          "lineNumber": 1034,
+          "originalLine": "1034. Troubleshooting"
+        }
+      ]
+    },
+    {
+      "name": "Onboarding",
+      "count": 7,
+      "occurrences": [
+        {
+          "lineNumber": 276,
+          "originalLine": "276. Onboarding"
+        },
+        {
+          "lineNumber": 635,
+          "originalLine": "635. Onboarding"
+        },
+        {
+          "lineNumber": 638,
+          "originalLine": "638. Onboarding"
+        },
+        {
+          "lineNumber": 751,
+          "originalLine": "751. Onboarding"
+        },
+        {
+          "lineNumber": 812,
+          "originalLine": "812. Onboarding"
+        },
+        {
+          "lineNumber": 871,
+          "originalLine": "871. Onboarding"
+        },
+        {
+          "lineNumber": 894,
+          "originalLine": "894. Onboarding"
+        }
+      ]
+    },
+    {
+      "name": "Architecture",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 305,
+          "originalLine": "305. Architecture"
+        },
+        {
+          "lineNumber": 737,
+          "originalLine": "737. Architecture"
+        },
+        {
+          "lineNumber": 885,
+          "originalLine": "885. Architecture"
+        }
+      ]
+    },
+    {
+      "name": "Environments",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 306,
+          "originalLine": "306. Environments"
+        },
+        {
+          "lineNumber": 553,
+          "originalLine": "553. Environments"
+        }
+      ]
+    },
+    {
+      "name": "Secrets",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 311,
+          "originalLine": "311. Secrets"
+        },
+        {
+          "lineNumber": 921,
+          "originalLine": "921. Secrets"
+        }
+      ]
+    },
+    {
+      "name": "Contributing",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 354,
+          "originalLine": "354. Contributing"
+        },
+        {
+          "lineNumber": 651,
+          "originalLine": "651. Contributing"
+        },
+        {
+          "lineNumber": 656,
+          "originalLine": "656. Contributing"
+        }
+      ]
+    },
+    {
+      "name": "Golden Paths",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 355,
+          "originalLine": "355. Golden Paths"
+        },
+        {
+          "lineNumber": 594,
+          "originalLine": "594. Golden Paths"
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 468,
+          "originalLine": "468. Security"
+        },
+        {
+          "lineNumber": 535,
+          "originalLine": "535. Security"
+        }
+      ]
+    },
+    {
+      "name": "Overview",
+      "count": 10,
+      "occurrences": [
+        {
+          "lineNumber": 504,
+          "originalLine": "504. Overview"
+        },
+        {
+          "lineNumber": 739,
+          "originalLine": "739. Overview"
+        },
+        {
+          "lineNumber": 752,
+          "originalLine": "752. Overview"
+        },
+        {
+          "lineNumber": 831,
+          "originalLine": "831. Overview"
+        },
+        {
+          "lineNumber": 874,
+          "originalLine": "874. Overview"
+        },
+        {
+          "lineNumber": 875,
+          "originalLine": "875. Overview"
+        },
+        {
+          "lineNumber": 876,
+          "originalLine": "876. Overview"
+        },
+        {
+          "lineNumber": 880,
+          "originalLine": "880. Overview"
+        },
+        {
+          "lineNumber": 949,
+          "originalLine": "949. Overview"
+        },
+        {
+          "lineNumber": 973,
+          "originalLine": "973. Overview"
+        }
+      ]
+    },
+    {
+      "name": "Platform Metadata",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 550,
+          "originalLine": "550. Platform Metadata"
+        },
+        {
+          "lineNumber": 765,
+          "originalLine": "765. Platform Metadata"
+        }
+      ]
+    },
+    {
+      "name": "Teams",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 551,
+          "originalLine": "551. Teams"
+        },
+        {
+          "lineNumber": 840,
+          "originalLine": "840. Teams"
+        }
+      ]
+    },
+    {
+      "name": "Aws Accounts",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 554,
+          "originalLine": "554. Aws Accounts"
+        },
+        {
+          "lineNumber": 841,
+          "originalLine": "841. Aws Accounts"
+        },
+        {
+          "lineNumber": 842,
+          "originalLine": "842. Aws Accounts"
+        }
+      ]
+    },
+    {
+      "name": "App Groups",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 556,
+          "originalLine": "556. App Groups"
+        },
+        {
+          "lineNumber": 613,
+          "originalLine": "613. App Groups"
+        },
+        {
+          "lineNumber": 860,
+          "originalLine": "860. App Groups"
+        }
+      ]
+    },
+    {
+      "name": "Introduction",
+      "count": 5,
+      "occurrences": [
+        {
+          "lineNumber": 601,
+          "originalLine": "601. Introduction"
+        },
+        {
+          "lineNumber": 604,
+          "originalLine": "604. Introduction"
+        },
+        {
+          "lineNumber": 629,
+          "originalLine": "629. Introduction"
+        },
+        {
+          "lineNumber": 646,
+          "originalLine": "646. Introduction"
+        },
+        {
+          "lineNumber": 659,
+          "originalLine": "659. Introduction"
+        }
+      ]
+    },
+    {
+      "name": "Pipeline",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 602,
+          "originalLine": "602. Pipeline"
+        },
+        {
+          "lineNumber": 625,
+          "originalLine": "625. Pipeline"
+        },
+        {
+          "lineNumber": 688,
+          "originalLine": "688. Pipeline"
+        }
+      ]
+    },
+    {
+      "name": "Visibility",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 611,
+          "originalLine": "611. Visibility"
+        },
+        {
+          "lineNumber": 645,
+          "originalLine": "645. Visibility"
+        },
+        {
+          "lineNumber": 683,
+          "originalLine": "683. Visibility"
+        }
+      ]
+    },
+    {
+      "name": "Deployment Config",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 619,
+          "originalLine": "619. Deployment Config"
+        },
+        {
+          "lineNumber": 636,
+          "originalLine": "636. Deployment Config"
+        },
+        {
+          "lineNumber": 639,
+          "originalLine": "639. Deployment Config"
+        }
+      ]
+    },
+    {
+      "name": "Deployments",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 620,
+          "originalLine": "620. Deployments"
+        },
+        {
+          "lineNumber": 925,
+          "originalLine": "925. Deployments"
+        }
+      ]
+    },
+    {
+      "name": "Docker File",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 623,
+          "originalLine": "623. Docker File"
+        },
+        {
+          "lineNumber": 634,
+          "originalLine": "634. Docker File"
+        }
+      ]
+    },
+    {
+      "name": "Faqs",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 640,
+          "originalLine": "640. Faqs"
+        },
+        {
+          "lineNumber": 822,
+          "originalLine": "822. Faqs"
+        },
+        {
+          "lineNumber": 917,
+          "originalLine": "917. Faqs"
+        }
+      ]
+    },
+    {
+      "name": "Scaling",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 643,
+          "originalLine": "643. Scaling"
+        },
+        {
+          "lineNumber": 690,
+          "originalLine": "690. Scaling"
+        }
+      ]
+    },
+    {
+      "name": "Setup",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 654,
+          "originalLine": "654. Setup"
+        },
+        {
+          "lineNumber": 965,
+          "originalLine": "965. Setup"
+        }
+      ]
+    },
+    {
+      "name": "continuous-delivery-engineering",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 658,
+          "originalLine": "658. continuous-delivery-engineering"
+        },
+        {
+          "lineNumber": 736,
+          "originalLine": "736. continuous-delivery-engineering"
+        },
+        {
+          "lineNumber": 809,
+          "originalLine": "809. continuous-delivery-engineering"
+        }
+      ]
+    },
+    {
+      "name": "Ansible Roles",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 665,
+          "originalLine": "665. Ansible Roles"
+        },
+        {
+          "lineNumber": 883,
+          "originalLine": "883. Ansible Roles"
+        }
+      ]
+    },
+    {
+      "name": "Infra Tests",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 667,
+          "originalLine": "667. Infra Tests"
+        },
+        {
+          "lineNumber": 693,
+          "originalLine": "693. Infra Tests"
+        }
+      ]
+    },
+    {
+      "name": "Ec2",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 676,
+          "originalLine": "676. Ec2"
+        },
+        {
+          "lineNumber": 912,
+          "originalLine": "912. Ec2"
+        }
+      ]
+    },
+    {
+      "name": "Continuous Delivery",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 703,
+          "originalLine": "703. Continuous Delivery"
+        },
+        {
+          "lineNumber": 781,
+          "originalLine": "781. Continuous Delivery"
+        }
+      ]
+    },
+    {
+      "name": "Slack",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 754,
+          "originalLine": "754. Slack"
+        },
+        {
+          "lineNumber": 972,
+          "originalLine": "972. Slack"
+        }
+      ]
+    },
+    {
+      "name": "Testing",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 761,
+          "originalLine": "761. Testing"
+        },
+        {
+          "lineNumber": 958,
+          "originalLine": "958. Testing"
+        }
+      ]
+    },
+    {
+      "name": "Acceptance Tests",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 769,
+          "originalLine": "769. Acceptance Tests"
+        },
+        {
+          "lineNumber": 779,
+          "originalLine": "779. Acceptance Tests"
+        }
+      ]
+    },
+    {
+      "name": "Developer Tests",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 770,
+          "originalLine": "770. Developer Tests"
+        },
+        {
+          "lineNumber": 783,
+          "originalLine": "783. Developer Tests"
+        }
+      ]
+    },
+    {
+      "name": "Naming Standards",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 825,
+          "originalLine": "825. Naming Standards"
+        },
+        {
+          "lineNumber": 833,
+          "originalLine": "833. Naming Standards"
+        },
+        {
+          "lineNumber": 843,
+          "originalLine": "843. Naming Standards"
+        }
+      ]
+    },
+    {
+      "name": "Ami Builds",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 882,
+          "originalLine": "882. Ami Builds"
+        },
+        {
+          "lineNumber": 923,
+          "originalLine": "923. Ami Builds"
+        }
+      ]
+    },
+    {
+      "name": "Justeat",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 982,
+          "originalLine": "982. Justeat"
+        },
+        {
+          "lineNumber": 1007,
+          "originalLine": "1007. Justeat"
+        }
+      ]
+    },
+    {
+      "name": "Takeaway",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 983,
+          "originalLine": "983. Takeaway"
+        },
+        {
+          "lineNumber": 1008,
+          "originalLine": "1008. Takeaway"
+        }
+      ]
+    },
+    {
+      "name": "Cluster",
+      "count": 3,
+      "occurrences": [
+        {
+          "lineNumber": 1020,
+          "originalLine": "1020. Cluster"
+        },
+        {
+          "lineNumber": 1024,
+          "originalLine": "1024. Cluster"
+        },
+        {
+          "lineNumber": 1029,
+          "originalLine": "1029. Cluster"
+        }
+      ]
+    },
+    {
+      "name": "User Access",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 1022,
+          "originalLine": "1022. User Access"
+        },
+        {
+          "lineNumber": 1035,
+          "originalLine": "1035. User Access"
+        }
+      ]
+    },
+    {
+      "name": "Mysql User Access",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 1025,
+          "originalLine": "1025. Mysql User Access"
+        },
+        {
+          "lineNumber": 1036,
+          "originalLine": "1036. Mysql User Access"
+        }
+      ]
+    },
+    {
+      "name": "Postgresql User Access",
+      "count": 2,
+      "occurrences": [
+        {
+          "lineNumber": 1026,
+          "originalLine": "1026. Postgresql User Access"
+        },
+        {
+          "lineNumber": 1037,
+          "originalLine": "1037. Postgresql User Access"
+        }
+      ]
+    }
+  ]
+}

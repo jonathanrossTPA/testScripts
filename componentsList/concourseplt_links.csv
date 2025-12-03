@@ -1,0 +1,9 @@
+Component,Field,URL
+"concoursepltdb","backstage","https://backstage.eu-west-1.production.jet-internal.com/catalog/default/component/concoursepltdb"
+"concoursepltdb","repo","https://github.je-labs.com/ContinuousDeliveryEngineering/concoursepltdb"
+"concoursepltdb","observability","https://app.datadoghq.eu/apm/entity/service%3Aconcoursepltdb?env=prd"
+"concoursepltdb","definition","https://github.je-labs.com/metadata/PlatformMetadata/blob/master/Data/global_features/concoursepltdb.json"
+"concourseplt","backstage","https://backstage.eu-west-1.production.jet-internal.com/catalog/default/component/concourseplt"
+"concourseplt","repo","https://github.je-labs.com/Infrastructure/concourseplt"
+"concourseplt","observability","https://app.datadoghq.eu/apm/entity/service%3Aconcourseplt?env=prd"
+"concourseplt","definition","https://github.je-labs.com/metadata/PlatformMetadata/blob/master/Data/global_features/concourseplt.json"

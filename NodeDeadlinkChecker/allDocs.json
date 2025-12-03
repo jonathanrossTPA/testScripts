@@ -1,0 +1,1390 @@
+{
+  "documents": [
+    {
+      "title": "Restaurant Menu Manager Notifications",
+      "description": "Handles notifications of menu updates for ops agents",
+      "relativePath": "component/restaurantmenumanagernotifications/index.html",
+      "modifiedAt": "2023-11-16T15:24:05.653+00:00",
+      "owner": "partner-catalogue-management"
+    },
+    {
+      "title": "restauranteventsdb docs",
+      "description": "The database used by the restaurant events feature.",
+      "relativePath": "component/restauranteventsdb/index.html",
+      "modifiedAt": "2025-03-11T04:16:19.806+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "pcmoduleordertime docs",
+      "description": "PartnerCentre order time module for SPA",
+      "relativePath": "component/pcmoduleordertime/index.html",
+      "modifiedAt": "2025-03-10T13:34:36.208+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "Partner Signup",
+      "description": "API to serve Partner Signup feature",
+      "relativePath": "component/partnersignupapi/index.html",
+      "modifiedAt": "2025-08-28T04:16:47.227+00:00",
+      "owner": "partner-acquisition"
+    },
+    {
+      "title": "restaurantevents docs",
+      "description": "Schedule events for restaurants",
+      "relativePath": "component/restauranteventsapi/index.html",
+      "modifiedAt": "2025-07-23T04:16:43.49+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "rasapiprojectionworker docs",
+      "description": ".NET Core Lambda used to consume and store messages published by Restaurant Availability Worker (RAS worker)",
+      "relativePath": "component/rasapiprojectionworker/index.html",
+      "modifiedAt": "2025-07-10T04:16:37.681+00:00",
+      "owner": "manage-purchase"
+    },
+    {
+      "title": "restauranteventsweb docs",
+      "description": "Schedule events for restaurants - Web",
+      "relativePath": "component/restauranteventsweb/index.html",
+      "modifiedAt": "2025-03-11T04:16:22.213+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "proactivetempofflineapi docs",
+      "description": "Api allowing to exclude/include restaurants from PTOL",
+      "relativePath": "component/proactivetempofflineapi/index.html",
+      "modifiedAt": "2025-03-11T04:16:12.569+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "Phone Masking API",
+      "description": "An API to mask customer phone numbers",
+      "relativePath": "component/phonemaskingapi/index.html",
+      "modifiedAt": "2025-06-10T12:37:44.51+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "RateManagement",
+      "description": "Application to manage billing partner rates",
+      "relativePath": "component/ratemanagement/index.html",
+      "modifiedAt": "2025-10-15T04:16:53.022+00:00",
+      "owner": "finance-core"
+    },
+    {
+      "title": "PlusPremiumContentOrchestrator",
+      "description": "Provides layout and localised content for Plus-focused pages throughout the JET ecosystem",
+      "relativePath": "component/pluspremiumcontentorchestrator/index.html",
+      "modifiedAt": "2025-10-22T04:16:49.11+00:00",
+      "owner": "retention"
+    },
+    {
+      "title": "restaurantevents docs",
+      "description": "Handlers for domain events for Restaurant Schedule Events.",
+      "relativePath": "component/restauranteventslambda/index.html",
+      "modifiedAt": "2025-07-11T04:16:41.913+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "PartnerListingApi",
+      "description": "Lists partners on Home and SERP",
+      "relativePath": "component/partnerlistingapi/index.html",
+      "modifiedAt": "2025-10-23T04:16:48.762+00:00",
+      "owner": "global-search"
+    },
+    {
+      "title": "OrderpadMenuProjectionApi",
+      "description": "API for Menu Projections",
+      "relativePath": "component/orderpadmenuprojectionapi/index.html",
+      "modifiedAt": "2024-12-03T11:08:26.282+00:00",
+      "owner": "live-order-integrations"
+    },
+    {
+      "title": "pcmoduleopeninghours docs",
+      "description": "PartnerCentre Opening Hours module for SPA",
+      "relativePath": "component/pcmoduleopeninghours/index.html",
+      "modifiedAt": "2025-06-06T04:16:27.88+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "Orderpad App",
+      "description": "Orderpad android application, for devices in restaurants.",
+      "relativePath": "component/orderpadapp/index.html",
+      "modifiedAt": "2025-06-25T04:16:25.509+00:00",
+      "owner": "global-orderpad"
+    },
+    {
+      "title": "restauranthours docs",
+      "description": "Lambda functions for managing restaurant opening hours",
+      "relativePath": "component/restauranthours/index.html",
+      "modifiedAt": "2025-03-11T04:16:24.178+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "Restaurant service documentation",
+      "description": "The restaurant service will be responsible for creating/managing restaurant data.",
+      "relativePath": "component/restaurantservice/index.html",
+      "modifiedAt": "2025-09-09T04:17:09.221+00:00",
+      "owner": "partner-information-profile"
+    },
+    {
+      "title": "partneravailabilitynotifier docs",
+      "description": "PartnerAvailabilityNotifier is responsible for Partner/Restaurant SMS Notifications",
+      "relativePath": "component/partneravailabilitynotifier/index.html",
+      "modifiedAt": "2025-07-08T04:16:26.393+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "ordertimeapieks docs",
+      "description": "Api for managing order time",
+      "relativePath": "component/ordertimeapieks/index.html",
+      "modifiedAt": "2025-03-20T04:16:17.966+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "restaurantrankingapi",
+      "description": "Ranking Restaurant API",
+      "relativePath": "component/restaurantrankingapi/index.html",
+      "modifiedAt": "2025-11-04T11:37:06.29+00:00",
+      "owner": "customer-recommendations-algos-partners"
+    },
+    {
+      "title": "PartnerOrderWorkerEks",
+      "description": "Worker for allowing orders to go to and from partners such as RDS, EPOS.",
+      "relativePath": "component/partnerorderworkereks/index.html",
+      "modifiedAt": "2025-01-17T04:15:54.154+00:00",
+      "owner": "live-order-integrations"
+    },
+    {
+      "title": "Finopswizconfig Documentaion",
+      "description": "Repository and pipeline for FinOps custom Wiz configuration",
+      "relativePath": "component/finopswizconfig/index.html",
+      "modifiedAt": "2024-08-15T10:11:52.74+00:00",
+      "owner": "cloud-finops"
+    },
+    {
+      "title": "SOx Reporter",
+      "description": "Raises Jira ticket as part of SOx controls for Critical Access and Emergency Change",
+      "relativePath": "component/soxreporter/index.html",
+      "modifiedAt": "2023-11-16T15:24:05.628+00:00",
+      "owner": "data-infrastructure-platform-services"
+    },
+    {
+      "title": "Secengtest",
+      "description": "secengTest",
+      "relativePath": "component/secengtest/index.html",
+      "modifiedAt": "2023-11-16T15:24:05.411+00:00",
+      "owner": "seceng"
+    },
+    {
+      "title": "ReviewTestOrchestratorApi",
+      "description": "An API to allow easier testing of the reviews platform",
+      "relativePath": "component/reviewtestorchestratorapi/index.html",
+      "modifiedAt": "2025-08-29T04:16:55.693+00:00",
+      "owner": "reviews"
+    },
+    {
+      "title": "Insights API",
+      "description": "The Insights API has been designed to serve as a stateless data provider for the Analytics project in the Partner Hub",
+      "relativePath": "component/insightsapi/index.html",
+      "modifiedAt": "2025-08-06T04:16:17.364+00:00",
+      "owner": "partner-experience-essentials"
+    },
+    {
+      "title": "oneappavailabilitysyncer docs",
+      "description": "A worker to sync legacy take away exceptions with ras and working hours api.",
+      "relativePath": "component/oneappavailabilitysyncer/index.html",
+      "modifiedAt": "2025-08-23T04:16:25.693+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "Content Cards docs",
+      "description": "An entity to encapsulate the content card behaviours that are exposed on client apps",
+      "relativePath": "component/globalcontentcards/index.html",
+      "modifiedAt": "2025-03-04T04:15:49.962+00:00",
+      "owner": "retention"
+    },
+    {
+      "title": "ItemSearchApi",
+      "description": "Search for partners which have a specific item available.",
+      "relativePath": "component/itemsearchapi/index.html",
+      "modifiedAt": "2025-07-08T04:16:12.826+00:00",
+      "owner": "grocery-and-retail-growth"
+    },
+    {
+      "title": "Order Issues Api Docs",
+      "description": "Service for administrating configuration and reporting of order issues.",
+      "relativePath": "component/orderissuesapi/index.html",
+      "modifiedAt": "2025-05-07T04:16:16.112+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "Devex",
+      "description": "Role assumed by ScoreKeeper to gather data.",
+      "relativePath": "component/scorekeeperagentrole/index.html",
+      "modifiedAt": "2024-11-08T11:16:01.25+00:00",
+      "owner": "developer-experience"
+    },
+    {
+      "title": "RuntimeSupportScout",
+      "description": "An API that provides data about supported developer runtimes.",
+      "relativePath": "component/runtimesupportscout/index.html",
+      "modifiedAt": "2025-02-05T04:16:16.966+00:00",
+      "owner": "codeflow"
+    },
+    {
+      "title": "Note API",
+      "description": "Service for storing manual order notes and aggregating these with order logs from the centralised logging system",
+      "relativePath": "component/noteapi/index.html",
+      "modifiedAt": "2024-12-05T04:15:47.048+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "Scorekeeper",
+      "description": "Gathers events and calculates scores for scorecard",
+      "relativePath": "component/scorekeeper/index.html",
+      "modifiedAt": "2025-08-12T04:17:08.941+00:00",
+      "owner": "developer-experience"
+    },
+    {
+      "title": "Salesforce Message Bridge Documentation",
+      "description": "An interoperability layer to enable Salesforce to receive messages from the core JET platform.",
+      "relativePath": "component/salesforcemessagebridge/index.html",
+      "modifiedAt": "2025-10-02T04:17:03.738+00:00",
+      "owner": "partner-acquisition"
+    },
+    {
+      "title": "CustomerSelfExclusionApi",
+      "description": "This worker is designed to manage customers' self exclusion preferences where a customer if wish to opt to exclude themselves from restricted items",
+      "relativePath": "component/selfexclusionworker/index.html",
+      "modifiedAt": "2025-07-17T04:16:50.766+00:00",
+      "owner": "customer-accounts-choice"
+    },
+    {
+      "title": "Operations Alerts",
+      "description": "Operations Alerts will make requests to external resources on a schedule and record the responses in statsd which will then trigger alerts when boundaries are hit.",
+      "relativePath": "component/operationsalerts/index.html",
+      "modifiedAt": "2025-02-27T04:15:58.422+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "Operations Support API",
+      "description": "Component responsible for zendesk operation support read/writes",
+      "relativePath": "component/operationssupport/index.html",
+      "modifiedAt": "2025-10-01T04:16:39.083+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "MenuGeneratorAPI",
+      "description": "API to serve Menu Generator feature",
+      "relativePath": "component/menugeneratorapi/index.html",
+      "modifiedAt": "2025-09-19T04:16:24.495+00:00",
+      "owner": "menu-generator-accelerator"
+    },
+    {
+      "title": "OrderGeopositionLambdas",
+      "description": "Lambda functions for geocoding orders",
+      "relativePath": "component/ordergeopositionlambdas/index.html",
+      "modifiedAt": "2025-03-22T04:16:03.034+00:00",
+      "owner": "location-services"
+    },
+    {
+      "title": "ObservabilityScout",
+      "description": "An API that provides data about teams' adherance to observability best practices",
+      "relativePath": "component/observabilityscout/index.html",
+      "modifiedAt": "2025-08-20T04:16:26.412+00:00",
+      "owner": "platform-observability"
+    },
+    {
+      "title": "liverestauranteventsseeder docs",
+      "description": "A lambda to seed LiveRestaurantEvents based on the live events on RDS.",
+      "relativePath": "component/liverestauranteventsseeder/index.html",
+      "modifiedAt": "2025-03-11T04:15:52.642+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "scheduledunavailabilityservice docs",
+      "description": "A service that is responsible for generating the offlining event requests by type.",
+      "relativePath": "component/scheduledunavailabilityservice/index.html",
+      "modifiedAt": "2025-03-11T04:16:29.432+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "Logistics Tracker docs",
+      "description": "SkipTheDishes - Project responsible for managing tracking information",
+      "relativePath": "component/logisticstracker/index.html",
+      "modifiedAt": "2024-08-01T04:15:45.087+00:00",
+      "owner": "daas"
+    },
+    {
+      "title": "Scoober Operations Integration",
+      "description": "Component responsible for agent contact between JustEat operations and Scoober operations",
+      "relativePath": "component/scooberoperationsintegration/index.html",
+      "modifiedAt": "2025-10-01T04:17:13.788+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "CustomerVerificationApi",
+      "description": "An API for verifying customers",
+      "relativePath": "component/customerverificationapi/index.html",
+      "modifiedAt": "2025-04-11T04:15:36.68+00:00",
+      "owner": "customer-accounts-auth-identity"
+    },
+    {
+      "title": "restopsrasprojworkerstore docs",
+      "description": "DynamoDB tables to store Restaurant Availability messages and projections to be used by Restaurant Operations.",
+      "relativePath": "component/restopsrasprojworkerstore/index.html",
+      "modifiedAt": "2025-03-08T04:16:49.4+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "GeodataDB",
+      "description": "RDS used by GeodataAPI that contains areas, countries, districtboroughs, posttowns and regions",
+      "relativePath": "component/geodatadb/index.html",
+      "modifiedAt": "2025-06-04T04:16:13.97+00:00",
+      "owner": "location-services"
+    },
+    {
+      "title": "lateorder docs",
+      "description": "Responsible for late order process",
+      "relativePath": "component/lateorder/index.html",
+      "modifiedAt": "2025-09-30T04:16:17.124+00:00",
+      "owner": "order-issue-prevention"
+    },
+    {
+      "title": "ignoredorder docs",
+      "description": "This component is responsible for handling ignored orders.",
+      "relativePath": "component/ignoredorder/index.html",
+      "modifiedAt": "2025-11-10T10:38:39.614+00:00",
+      "owner": "order-issue-prevention"
+    },
+    {
+      "title": "customersupportapi docs",
+      "description": "An API to provide navigation and extra support to Customers when they're reaching out for help",
+      "relativePath": "component/customersupportapi/index.html",
+      "modifiedAt": "2025-05-23T04:15:54.766+00:00",
+      "owner": "advisor-experience"
+    },
+    {
+      "title": "DatabaseFetcher Docs",
+      "description": "Service to poll for database changes and post detected changes on rabbitmq to be handled by the databaserepeater",
+      "relativePath": "component/databasefetcherothers/index.html",
+      "modifiedAt": "2025-01-09T04:15:40.627+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "DataExtractor",
+      "description": "This feature would be triggered by a schedule and will be responsible to extract data from an external SFTP server, modify/map it as needed, and then upload the modified data to a S3 storage.",
+      "relativePath": "component/dataextractor/index.html",
+      "modifiedAt": "2025-06-24T04:15:53.828+00:00",
+      "owner": "catalogue-information"
+    },
+    {
+      "title": "TbbDatamodule-docs",
+      "description": "Service behind the orderscreen in TMS",
+      "relativePath": "component/tbbdatamodulebelufr/index.html",
+      "modifiedAt": "2024-11-14T04:16:08.487+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "Customer Service Order Projection Worker",
+      "description": "Customer Service Order Projection is a service responsible for maintaining an Order projection for use within CSE-Auto workflows.",
+      "relativePath": "component/customerserviceorderprojectionworker/index.html",
+      "modifiedAt": "2025-10-27T13:51:49.828+00:00",
+      "owner": "advisor-experience"
+    },
+    {
+      "title": "TbbDatamodule-docs",
+      "description": "Service behind the orderscreen in TMS - secondary/hotswap deployment",
+      "relativePath": "component/tbbdatamodulebelufrsecondary/index.html",
+      "modifiedAt": "2024-11-14T04:16:09.618+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "DSI DynamoDB SOx",
+      "description": "Deploys CloudTrail for DynamoDB SOx Auditing.",
+      "relativePath": "component/ddbsox/index.html",
+      "modifiedAt": "2023-11-16T15:24:05.694+00:00",
+      "owner": "data-infrastructure-platform-services"
+    },
+    {
+      "title": "TbbDatamodule-docs",
+      "description": "Service behind the orderscreen in TMS - secondary/hotswap deployment",
+      "relativePath": "component/tbbdatamoduleotherssecondary/index.html",
+      "modifiedAt": "2024-11-14T04:16:09.957+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "Dispatch Logistics - Delivery MGMT",
+      "description": "SkipTheDishes - Responsible for creating Deliveries for the delco network and run analysis for each delivery to track its current state.",
+      "relativePath": "component/deliverymgmt/index.html",
+      "modifiedAt": "2023-11-16T15:24:05.716+00:00",
+      "owner": "dispatch-logistics"
+    },
+    {
+      "title": "DeliveryFeesApi",
+      "description": "The source of truth for delivery fees",
+      "relativePath": "component/deliveryfeesapi/index.html",
+      "modifiedAt": "2023-11-16T15:24:05.421+00:00",
+      "owner": "partner-delivery-area"
+    },
+    {
+      "title": "TbbDatamodule-docs",
+      "description": "Service behind the orderscreen in TMS - secondary/hotswap deployment",
+      "relativePath": "component/tbbdatamoduleesitiesecondary/index.html",
+      "modifiedAt": "2024-11-14T04:16:09.831+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "TbbDatamodule-docs",
+      "description": "Service behind the orderscreen in TMS",
+      "relativePath": "component/tbbdatamoduleothers/index.html",
+      "modifiedAt": "2024-11-14T04:16:10.06+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "GitLab",
+      "description": "SCM and CI/CD service for legacy Takeaway.com projects \n",
+      "relativePath": "component/gitlab/index.html",
+      "modifiedAt": "2023-11-16T15:24:06.521+00:00",
+      "owner": "continuous-delivery-engineering"
+    },
+    {
+      "title": "customersegmentationprojection docs",
+      "description": "Projection of customer segmentation data provided by ASCA benthos pipeline",
+      "relativePath": "component/customersegmentationprojection/index.html",
+      "modifiedAt": "2025-09-25T04:16:00.664+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "subscriptionservice docs",
+      "description": "The API manages recurring payments for membership subscriptions and generates events for the 'subscriptionserviceworker' to handle.",
+      "relativePath": "component/subscriptionservice/index.html",
+      "modifiedAt": "2025-08-27T04:17:14.636+00:00",
+      "owner": "payments-incentives"
+    },
+    {
+      "title": "DishSearchApi",
+      "description": "Facilitates Dish Search",
+      "relativePath": "component/dishsearchapi/index.html",
+      "modifiedAt": "2025-10-30T10:06:29.469+00:00",
+      "owner": "text-search-and-refine"
+    },
+    {
+      "title": "CustomerConnectionWorker",
+      "description": "A worker for asynchronous operations related to customers third-party connections",
+      "relativePath": "component/customerconnectionworker/index.html",
+      "modifiedAt": "2025-08-14T04:16:01.909+00:00",
+      "owner": "customer-accounts-choice"
+    },
+    {
+      "title": "textsearchtestautomation docs",
+      "description": "Test Automation for Dish Search Api and Textsearchlambdas",
+      "relativePath": "component/textsearchtestautomation/index.html",
+      "modifiedAt": "2025-06-16T12:35:08.522+00:00",
+      "owner": "text-search-and-refine"
+    },
+    {
+      "title": "TMSFetcher-docs",
+      "description": "Service for detecting database changes as input for TDMv2",
+      "relativePath": "component/tmsfetcher/index.html",
+      "modifiedAt": "2024-11-30T04:16:09.747+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "sonarqubeeks docs",
+      "description": "SonarQube instance configuration, OneEKS edition",
+      "relativePath": "component/sonarqubeeks/index.html",
+      "modifiedAt": "2025-01-29T04:16:17.585+00:00",
+      "owner": "developer-experience"
+    },
+    {
+      "title": "Content Operations API Docs",
+      "description": "API for C-OPS to manage image data",
+      "relativePath": "component/contentoperationsapi/index.html",
+      "modifiedAt": "2025-03-25T04:15:38.466+00:00",
+      "owner": "content"
+    },
+    {
+      "title": "Codeflow documentation",
+      "description": "A .NET EKS application that acts as a canary for new innovations.",
+      "relativePath": "component/tweetiepie/index.html",
+      "modifiedAt": "2025-01-30T09:12:28.869+00:00",
+      "owner": "codeflow"
+    },
+    {
+      "title": "Content Images Cloudinary Docs",
+      "description": "Lambdas to upload Content images to Cloudinary",
+      "relativePath": "component/contentimagescloudinary/index.html",
+      "modifiedAt": "2025-03-25T04:15:38.811+00:00",
+      "owner": "content"
+    },
+    {
+      "title": "TMSOrderEnricher-docs",
+      "description": "Service for which enriches order events with data from elastic search indexes for use in the order orchestrator",
+      "relativePath": "component/tmsorderenricher/index.html",
+      "modifiedAt": "2024-11-30T04:16:09.645+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "TMS-OrderActionProcessor Docs",
+      "description": "Service for persisting agent actions on orders in tms in elasticsearch",
+      "relativePath": "component/tmsorderactionprocessor/index.html",
+      "modifiedAt": "2025-06-13T04:16:52.758+00:00",
+      "owner": "order-issue-prevention"
+    },
+    {
+      "title": "crosssellapi docs",
+      "description": "Provides recommendations for products that go well with other products",
+      "relativePath": "component/crosssellapi/index.html",
+      "modifiedAt": "2025-11-05T11:40:54.939+00:00",
+      "owner": "customer-recommendations-algos-products"
+    },
+    {
+      "title": "courieractivityservice docs",
+      "description": "Processes and serves Marketplace Couriers' Activity. This is a feature inside Marketplace Courier App which allows couriers to see their previous rides, collected cash, tips, distance, etc.",
+      "relativePath": "component/courieractivityservice/index.html",
+      "modifiedAt": "2025-10-27T08:30:16.925+00:00",
+      "owner": "scoober-curiosity"
+    },
+    {
+      "title": "TMS-ConnectionMethodProcessor Docs",
+      "description": "Service for processing connectionmethod change events and persisting these in elasticsearch",
+      "relativePath": "component/tmsconnectionmethodprocessor/index.html",
+      "modifiedAt": "2025-06-13T04:16:52.487+00:00",
+      "owner": "order-issue-prevention"
+    },
+    {
+      "title": "Home",
+      "description": "The future home of the ONLY API that deals with communication preferences at JET",
+      "relativePath": "component/communicationpreferencesapieks/index.html",
+      "modifiedAt": "2025-08-23T04:15:46.263+00:00",
+      "owner": "customer-accounts-choice"
+    },
+    {
+      "title": "Content Operations Web Docs",
+      "description": "Web UI for Content Operations team used to automate some photo release operations (menu headers, dish images, etc.)",
+      "relativePath": "component/contentoperationsweb/index.html",
+      "modifiedAt": "2025-03-25T04:15:39.965+00:00",
+      "owner": "content"
+    },
+    {
+      "title": "Content Partner Projection Docs",
+      "description": "Lambdas to project partner data",
+      "relativePath": "component/contentpartnerprojection/index.html",
+      "modifiedAt": "2025-03-22T04:15:40.616+00:00",
+      "owner": "content"
+    },
+    {
+      "title": "Food Tracker docs",
+      "description": "Returns the status of a customer's order",
+      "relativePath": "component/customerorderstatusapi/index.html",
+      "modifiedAt": "2025-08-13T04:16:04.607+00:00",
+      "owner": "track-purchase"
+    },
+    {
+      "title": "TMS-Automation-Worker Docs",
+      "description": "Service for performing actions to resolve order issues",
+      "relativePath": "component/tmsautomationworker/index.html",
+      "modifiedAt": "2025-05-08T04:16:52.29+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "Home",
+      "description": "Queue processing worker",
+      "relativePath": "component/consumerworker/index.html",
+      "modifiedAt": "2025-05-23T04:15:44.678+00:00",
+      "owner": "customer-accounts-choice"
+    },
+    {
+      "title": "cataloguemetadatasuggestionsworker docs",
+      "description": "Manage AI generated metadata for product catalogue",
+      "relativePath": "component/cataloguemetadatasuggestionsworker/index.html",
+      "modifiedAt": "2025-10-30T16:22:06.69+00:00",
+      "owner": "catalogue-platform"
+    },
+    {
+      "title": "Claims Authenticity API",
+      "description": "Claims Authenticity API: Verifies the legitimacy of customer claims aiding in the detection of potential fraudulent refund requests.",
+      "relativePath": "component/claimsauthenticityapi/index.html",
+      "modifiedAt": "2025-10-02T04:15:33.972+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "TMS-ScooberJobProcessor Docs",
+      "description": "Service for processing scoober job events and persisting these in elasticsearch",
+      "relativePath": "component/tmsscooberjobprocessor/index.html",
+      "modifiedAt": "2025-06-13T04:16:54.615+00:00",
+      "owner": "order-issue-prevention"
+    },
+    {
+      "title": "ZendeskBrandsEscalations",
+      "description": "Zendesk app to create escalations tickets for sensitive problems with orders",
+      "relativePath": "component/zendeskbrandsescalations/index.html",
+      "modifiedAt": "2025-03-04T04:16:34.184+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "Twilio Logging Log Sink",
+      "description": "Component which transfers Twilio error logs into JE systems",
+      "relativePath": "component/twiliologginglogsink/index.html",
+      "modifiedAt": "2025-02-27T04:16:34.394+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "worktimeapi docs",
+      "description": "Worktime API is a microservice, designed to be the One True source of Restaurant worktimes & Exceptions. Support Slack channel - #help-partner-availability, support tag - @rra-support",
+      "relativePath": "component/worktimeapi/index.html",
+      "modifiedAt": "2025-10-21T04:17:29.537+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "TMS-RestaurantProcessor Docs",
+      "description": "Service for persisting restaurant changes in elastic search",
+      "relativePath": "component/tmsrestaurantprocessor/index.html",
+      "modifiedAt": "2025-06-13T04:16:55.302+00:00",
+      "owner": "order-issue-prevention"
+    },
+    {
+      "title": "claimsauthenticitydataprojection docs",
+      "description": "Projection of claims authenticity data for use within the CCAS space",
+      "relativePath": "component/claimsauthenticitydataprojection/index.html",
+      "modifiedAt": "2025-10-24T04:15:37.96+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "claimsauthenticityservice docs",
+      "description": "Verifies the legitimacy of a customer claim based on a variety of signals, and creates reporting for claim outcomes",
+      "relativePath": "component/claimsauthenticityservice/index.html",
+      "modifiedAt": "2025-10-21T04:15:40.57+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "Backstage",
+      "description": "Provides platform visibility",
+      "relativePath": "component/backstage/index.html",
+      "modifiedAt": "2025-08-22T04:15:38.658+00:00",
+      "owner": "developer-experience"
+    },
+    {
+      "title": "Zendesk Order Lookup",
+      "description": "Zendesk application to help populate Zendesk tickets with order information",
+      "relativePath": "component/zendeskorderlookup/index.html",
+      "modifiedAt": "2025-02-28T04:16:52.084+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "BigQuery Job Project docs",
+      "description": "Google Cloud Projects for running BigQuery jobs",
+      "relativePath": "component/bigqueryjobprojects/index.html",
+      "modifiedAt": "2025-10-23T14:11:34.297+00:00",
+      "owner": "infrastructure-foundations-gcp-and-azure"
+    },
+    {
+      "title": "ArgoCD",
+      "description": "Argo is a declarative, GitOps continuous delivery tool for Kubernetes.\n",
+      "relativePath": "component/argocd/index.html",
+      "modifiedAt": "2025-08-13T04:15:24.803+00:00",
+      "owner": "continuous-delivery-engineering"
+    },
+    {
+      "title": "Home",
+      "description": "Lambdas to manage actions against accounts.",
+      "relativePath": "component/accountmanagementlambdas/index.html",
+      "modifiedAt": "2025-04-11T04:15:18.048+00:00",
+      "owner": "customer-accounts-auth-identity"
+    },
+    {
+      "title": "restaurantavailabilityworker docs",
+      "description": ".NET Core Lambda used to ingest messages and publish messages around restaurant availability",
+      "relativePath": "component/restaurantavailabilityworker/index.html",
+      "modifiedAt": "2025-07-10T04:16:42.155+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "TextSearchOpenSearchCluster",
+      "description": "OpenSearch cluster for Text Search",
+      "relativePath": "component/elastictextsearch/index.html",
+      "modifiedAt": "2025-09-09T20:28:03.492+00:00",
+      "owner": "text-search-and-refine"
+    },
+    {
+      "title": "piifinder docs",
+      "description": "Convenience tool to find PII and other sensitive information in DnA's BigQuery and automatically add Policy Tags for Column Level Access",
+      "relativePath": "component/piifinder/index.html",
+      "modifiedAt": "2025-01-18T04:15:57.772+00:00",
+      "owner": "data-platforms-governance"
+    },
+    {
+      "title": "restaurantevents docs",
+      "description": "Schedule events for restaurants",
+      "relativePath": "component/restauranteventsworker/index.html",
+      "modifiedAt": "2025-07-11T04:16:44.123+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "Phone Masking Interactions",
+      "description": "Component responsible for storing contact interactions between restaurants and customers",
+      "relativePath": "component/phonemaskinginteractions/index.html",
+      "modifiedAt": "2025-08-14T04:16:48.877+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "PartnerOrderApiEks",
+      "description": "PartnerOrderApi is a thin, publicly exposed API for partners to create orders, mainly used by thirdparties e.g HungryJacks (AU)",
+      "relativePath": "component/partnerorderapieks/index.html",
+      "modifiedAt": "2025-01-17T04:15:53.829+00:00",
+      "owner": "live-order-integrations"
+    },
+    {
+      "title": "proactivetempoffline",
+      "description": "Proactively takes restaurants temp offline based on business rules",
+      "relativePath": "component/proactivetempoffline/index.html",
+      "modifiedAt": "2025-10-27T13:10:01.813+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "productdatabankbuilder docs",
+      "description": "Builds up data for product databank",
+      "relativePath": "component/productdatabankbuilder/index.html",
+      "modifiedAt": "2025-11-06T09:08:59.885+00:00",
+      "owner": "catalogue-information"
+    },
+    {
+      "title": "RemoteAppManagement",
+      "description": "Api and Worker for Remote Application Management",
+      "relativePath": "component/remoteappmanagement/index.html",
+      "modifiedAt": "2025-06-27T04:16:27.912+00:00",
+      "owner": "global-orderpad"
+    },
+    {
+      "title": "PolygonApi",
+      "description": "Provides CRUD operations for polygons which describe delivery areas for restaurants. Performs restaurant search based on consumer's location (latitude and longitude) using polygon delivery areas. Polygon search (AKA Full address search) is currently enabled in Italy only.",
+      "relativePath": "component/polygonapi/index.html",
+      "modifiedAt": "2025-04-05T04:16:13.025+00:00",
+      "owner": "location-services"
+    },
+    {
+      "title": "restaurantavailabilityworkerstore docs",
+      "description": "DynamobDB tables to store Restaurant Availability messages and projections.",
+      "relativePath": "component/restaurantavailabilityworkerstore/index.html",
+      "modifiedAt": "2025-03-11T04:16:18.498+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "Refund API Docs",
+      "description": "Service for storing refund data - currently does not perform refunds - this still happens from TMS but just stores the details for audit purposes.",
+      "relativePath": "component/refundapi/index.html",
+      "modifiedAt": "2024-11-30T04:15:56.648+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "PlatengDotnetTestRefArch",
+      "description": "This is a test application for the CPS UK team.",
+      "relativePath": "component/platengdotnettestrefarch/index.html",
+      "modifiedAt": "2024-12-09T11:06:29.809+00:00",
+      "owner": "core-platform-services-ca-uk"
+    },
+    {
+      "title": "sonicportalapi docs",
+      "description": "sonic portal client application",
+      "relativePath": "component/sonicportalweb/index.html",
+      "modifiedAt": "2025-10-24T04:17:16.913+00:00",
+      "owner": "developer-experience"
+    },
+    {
+      "title": "restaurantopsauthorizationproxy docs",
+      "description": "A HTTP proxy that sits between Smartgateway and an upstream service, that will authorize API requests coming from external partners to confirm that they can modify/access given restaurant id(s).",
+      "relativePath": "component/restaurantopsauthorizationproxy/index.html",
+      "modifiedAt": "2025-03-11T04:16:26.858+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "partneravailabilitydashboardworker docs",
+      "description": "Hackathon 2024- Dash board worker ",
+      "relativePath": "component/partneravailabilitydashboardworker/index.html",
+      "modifiedAt": "2025-07-12T04:19:00.15+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "partneravailabilitydashboardapi docs",
+      "description": "Hackathon 2024- Dash board API",
+      "relativePath": "component/partneravailabilitydashboardapi/index.html",
+      "modifiedAt": "2025-03-11T04:16:04.894+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "OneRedirect",
+      "description": "Uses custom routing configuration to redirect requests based on their domain and path.",
+      "relativePath": "component/oneredirect/index.html",
+      "modifiedAt": "2025-10-07T04:16:24.037+00:00",
+      "owner": "http-integrations"
+    },
+    {
+      "title": "ordertimeworker docs",
+      "description": "Lambda functions to manage order time related events",
+      "relativePath": "component/ordertimeworker/index.html",
+      "modifiedAt": "2025-03-11T04:16:03.937+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "openinghoursapi docs",
+      "description": "An API to back a partner center SPA openinghours functionality",
+      "relativePath": "component/openinghoursapi/index.html",
+      "modifiedAt": "2025-03-11T04:15:56.483+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "Restaurant Zendesk Sync Lambda",
+      "description": "Lambda functions to sync restaurant data to Zendesk",
+      "relativePath": "component/restaurantzendesksynclambda/index.html",
+      "modifiedAt": "2025-02-27T04:16:21.678+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "OrderItemsModificationWorker",
+      "description": "Process item modification messages",
+      "relativePath": "component/orderitemsmodificationworker/index.html",
+      "modifiedAt": "2025-07-23T04:16:23.444+00:00",
+      "owner": "live-order-integrations"
+    },
+    {
+      "title": "RestaurantRankingWorker",
+      "description": "Background worker to handle events for Restaurant Ranking API",
+      "relativePath": "component/restaurantrankingworker/index.html",
+      "modifiedAt": "2025-02-05T04:16:13.335+00:00",
+      "owner": "customer-recommendations-algos-partners"
+    },
+    {
+      "title": "Restaurant Menu Manager",
+      "description": "VueJS front-end for editing partners' catalogues",
+      "relativePath": "component/restaurantmenumanager/index.html",
+      "modifiedAt": "2025-09-10T13:35:33.616+00:00",
+      "owner": "partner-catalogue-management"
+    },
+    {
+      "title": "Partner ID Lookup Table Documentation",
+      "description": "A DynamoDB table that can be utilized to lookup the L-JE partner ID from a L-TKWY ID (and vice versa).",
+      "relativePath": "component/partneridlookuptable/index.html",
+      "modifiedAt": "2025-09-11T04:16:43.611+00:00",
+      "owner": "partner-information-profile"
+    },
+    {
+      "title": "Order Queries Finance Lambda",
+      "description": "Lambda functions to resolve cross vertical queries for financial order resolutions",
+      "relativePath": "component/orderqueriesfinancelambda/index.html",
+      "modifiedAt": "2024-03-13T12:37:54.261+00:00",
+      "owner": "customer-service-experience-ops"
+    },
+    {
+      "title": "OrderManagementApi",
+      "description": "BFF for the Order Management web app",
+      "relativePath": "component/ordermanagementapi/index.html",
+      "modifiedAt": "2025-10-21T13:18:35.945+00:00",
+      "owner": "advisor-experience"
+    },
+    {
+      "title": "TextSearchAssets",
+      "description": "S3 files for Text Search",
+      "relativePath": "component/textsearchassets/index.html",
+      "modifiedAt": "2025-06-17T04:16:50.107+00:00",
+      "owner": "text-search-and-refine"
+    },
+    {
+      "title": "InvoiceBundlingService",
+      "description": "Service to bundle invoice documents",
+      "relativePath": "component/invoicebundlingservice/index.html",
+      "modifiedAt": "2025-03-29T04:15:55.278+00:00",
+      "owner": "fintech-cpp-invoicing"
+    },
+    {
+      "title": "Documentation Site",
+      "description": "BFF for Restaurant Menu Manager",
+      "relativePath": "component/skipmenueditorgateway/index.html",
+      "modifiedAt": "2025-10-24T10:07:07.981+00:00",
+      "owner": "partner-catalogue-management"
+    },
+    {
+      "title": "rasapiprojectionworker docs",
+      "description": "Restaurant Operations version of the .NET Core Lambda used to consume and store messages published by Restaurant Availability Worker (RAS worker)",
+      "relativePath": "component/restopsrasprojworker/index.html",
+      "modifiedAt": "2025-07-10T04:16:47.579+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "LowestPriceApi",
+      "description": "Provides the lowest price of discounted products for given restaurant. Used to fulfil legal requirements like the EU Omnibus Directive (EU Price Indication Directive)",
+      "relativePath": "component/lowestpriceapi/index.html",
+      "modifiedAt": "2025-02-22T04:15:48.389+00:00",
+      "owner": "partner-offers"
+    },
+    {
+      "title": "DORA",
+      "description": "An API to expose DORA metrics.",
+      "relativePath": "component/doraexplorer/index.html",
+      "modifiedAt": "2025-10-22T04:16:12.961+00:00",
+      "owner": "developer-experience"
+    },
+    {
+      "title": "oneappavailabilitylambda docs",
+      "description": "A Lambda will be responsible for managing Offline Exceptions. ",
+      "relativePath": "component/oneappavailabilitylambda/index.html",
+      "modifiedAt": "2025-09-04T04:16:17.947+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "Rich Media API Docs",
+      "description": "API that is used to publish images to Cloudinary CDN",
+      "relativePath": "component/richmediaapi/index.html",
+      "modifiedAt": "2025-06-19T04:16:43.022+00:00",
+      "owner": "content"
+    },
+    {
+      "title": "Customer Service Order Projection API",
+      "description": "Customer Service Projection is a service responsible for maintaining projections for use within CSE-Automation workflows",
+      "relativePath": "component/customerserviceprojectionapi/index.html",
+      "modifiedAt": "2025-10-07T04:15:59.781+00:00",
+      "owner": "advisor-experience"
+    },
+    {
+      "title": "SOx Reporter DB Admin",
+      "description": "Allows dbadmin to send commands to SOx Reporter",
+      "relativePath": "component/soxreporterdbadmin/index.html",
+      "modifiedAt": "2023-11-16T15:24:05.347+00:00",
+      "owner": "data-infrastructure-platform-services"
+    },
+    {
+      "title": "TbbDatamodule-docs",
+      "description": "Service behind the orderscreen in TMS",
+      "relativePath": "component/tbbdatamoduleplbgro/index.html",
+      "modifiedAt": "2024-11-14T04:16:10.366+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "CustomerPreferencesApi",
+      "description": "CustomerPreferencesApi manages the persistence of customer-preferred items, such as favourite partners.",
+      "relativePath": "component/customerpreferencesapi/index.html",
+      "modifiedAt": "2025-10-31T12:06:44.021+00:00",
+      "owner": "customer-accounts-choice"
+    },
+    {
+      "title": "TbbDatamodule-docs",
+      "description": "Service behind the orderscreen in TMS - used for TESTING purposes only",
+      "relativePath": "component/tbbdatamodulebeta/index.html",
+      "modifiedAt": "2024-11-14T04:16:08.699+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "Dish Images Mapping Generator Docs",
+      "description": "Lambda to generate mapping between the dish images for a restaurant and the products on restaurant's menu",
+      "relativePath": "component/dishimagesmappinggenerator/index.html",
+      "modifiedAt": "2025-06-19T04:15:56.246+00:00",
+      "owner": "content"
+    },
+    {
+      "title": "BigQuery Job Project docs",
+      "description": "Data Google Cloud Platform Projects",
+      "relativePath": "component/dataproject/index.html",
+      "modifiedAt": "2025-08-16T04:16:08.343+00:00",
+      "owner": "infrastructure-foundations-gcp-and-azure"
+    },
+    {
+      "title": "GDPR Service",
+      "description": "Service for creating and listing of GDPR requests - sends out confirmation emails through salesforce. Actual anonymization is done by the GDPR cronjob.",
+      "relativePath": "component/gdprservice/index.html",
+      "modifiedAt": "2024-11-30T04:15:41.385+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "delcoauthorizerlambda docs",
+      "description": "SkipTheDishes - Lambda used to authorizer delco couriers using Credential Management or Keycloak",
+      "relativePath": "component/delcoauthorizerlambda/index.html",
+      "modifiedAt": "2025-02-03T17:29:04.018+00:00",
+      "owner": "courier-live"
+    },
+    {
+      "title": "textsearchlambdas docs",
+      "description": "Updates Text Search data when new restaurants are created",
+      "relativePath": "component/textsearchlambdas/index.html",
+      "modifiedAt": "2025-10-28T15:44:06.748+00:00",
+      "owner": "text-search-and-refine"
+    },
+    {
+      "title": "SOx Reporter Source",
+      "description": "Allows SOx Reporter to query services and relays event bridge events.",
+      "relativePath": "component/soxreportersource/index.html",
+      "modifiedAt": "2023-11-16T15:24:05.366+00:00",
+      "owner": "data-infrastructure-platform-services"
+    },
+    {
+      "title": "IdentityApi",
+      "description": "An API to manage a user's identity and their credentials",
+      "relativePath": "component/identityapi/index.html",
+      "modifiedAt": "2025-08-06T04:16:14.343+00:00",
+      "owner": "customer-accounts-auth-identity"
+    },
+    {
+      "title": "TbbDatamodule-docs",
+      "description": "Service behind the orderscreen in TMS",
+      "relativePath": "component/tbbdatamodulenl/index.html",
+      "modifiedAt": "2024-11-14T04:16:09.719+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "DatabaseFetcher Docs",
+      "description": "Service to poll for database changes and post detected changes on rabbitmq to be handled by the databaserepeater",
+      "relativePath": "component/databasefetcherde/index.html",
+      "modifiedAt": "2025-01-09T04:15:39.916+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "TbbDatamodule-docs",
+      "description": "Service behind the orderscreen in TMS - used for TESTING purposes only - secondary/hotswap deployment",
+      "relativePath": "component/tbbdatamodulebetasecondary/index.html",
+      "modifiedAt": "2024-11-14T04:16:09.436+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "TbbDatamodule-docs",
+      "description": "Service behind the orderscreen in TMS - secondary/hotswap deployment",
+      "relativePath": "component/tbbdatamodulenlsecondary/index.html",
+      "modifiedAt": "2024-11-14T04:16:09.977+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "CustomerConnectionApi",
+      "description": "An API used to manage connections between a JET customer account and a 3rd party",
+      "relativePath": "component/customerconnectionapi/index.html",
+      "modifiedAt": "2025-10-18T04:15:56.914+00:00",
+      "owner": "customer-accounts-choice"
+    },
+    {
+      "title": "TbbDatamodule-docs",
+      "description": "Service behind the orderscreen in TMS - secondary/hotswap deployment",
+      "relativePath": "component/tbbdatamoduledeatsecondary/index.html",
+      "modifiedAt": "2024-11-14T04:16:09.954+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "Talkdesk Caller Id Service",
+      "description": "Allows retrieval of restaurant name and TMS link based on phone numbers for integration with talkdesk",
+      "relativePath": "component/talkdeskcalleridservice/index.html",
+      "modifiedAt": "2024-11-30T04:16:07.576+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "DatabaseFetcher Docs",
+      "description": "Service to poll for database changes and post detected changes on rabbitmq to be handled by the databaserepeater",
+      "relativePath": "component/databasefetchernl/index.html",
+      "modifiedAt": "2025-01-09T04:15:40.104+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "Infrastructure Inventory Tool",
+      "description": "Infrastructure inventory tool",
+      "relativePath": "component/infrainventorytool/index.html",
+      "modifiedAt": "2025-09-16T04:16:21.967+00:00",
+      "owner": "core-platform-services-ca-uk"
+    },
+    {
+      "title": "TbbDatamodule-docs",
+      "description": "Service behind the orderscreen in TMS",
+      "relativePath": "component/tbbdatamoduledeat/index.html",
+      "modifiedAt": "2024-11-14T04:16:09.462+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "GeodataApi",
+      "description": "Global API for providing postcode, timezone and latitude/longitude data",
+      "relativePath": "component/geodataapi/index.html",
+      "modifiedAt": "2025-11-05T15:00:58.964+00:00",
+      "owner": "location-services"
+    },
+    {
+      "title": "Codeflow documentation",
+      "description": "An application that helps manage Dependabot updates across multiple repositories",
+      "relativePath": "component/dependabothelper/index.html",
+      "modifiedAt": "2025-01-30T09:12:28.869+00:00",
+      "owner": "codeflow"
+    },
+    {
+      "title": "TbbDatamodule-docs",
+      "description": "Service behind the orderscreen in TMS",
+      "relativePath": "component/tbbdatamoduleesitie/index.html",
+      "modifiedAt": "2024-11-14T04:16:09.356+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "Structurizr Documentation",
+      "description": "Provides UI and tooling for generating architectural diagrams",
+      "relativePath": "component/structurizr/index.html",
+      "modifiedAt": "2025-07-03T04:16:43.281+00:00",
+      "owner": "developer-experience"
+    },
+    {
+      "title": "CustomerSelfExclusionApi",
+      "description": "This Api is designed to manage customers' self exclusion preferences where a customer if wish to opt to exclude themselves from restricted items",
+      "relativePath": "component/customerselfexclusionapi/index.html",
+      "modifiedAt": "2025-07-17T04:15:54.606+00:00",
+      "owner": "customer-accounts-choice"
+    },
+    {
+      "title": "flowdecider docs",
+      "description": "Microservice responsible for managing restaurant order flow configurations and sending transmission commands for next step in the configured flow.",
+      "relativePath": "component/flowdecider/index.html",
+      "modifiedAt": "2025-11-06T08:49:12.07+00:00",
+      "owner": "restaurant-transmission-flow"
+    },
+    {
+      "title": "DatabaseRepeater Docs",
+      "description": "Service to repeat order changes posted by the databasefetcher to kafka",
+      "relativePath": "component/databaserepeater/index.html",
+      "modifiedAt": "2024-11-30T04:15:38.264+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "DSI DynamoDB SOx Updater",
+      "description": "DynamoDB SOx Access Reporting configuration updater",
+      "relativePath": "component/ddbsoxupdater/index.html",
+      "modifiedAt": "2023-11-16T15:24:05.538+00:00",
+      "owner": "data-infrastructure-platform-services"
+    },
+    {
+      "title": "TextSearchLibraries",
+      "description": "Internal .NET libraries for common Text Search models and operations",
+      "relativePath": "component/textsearchlibraries/index.html",
+      "modifiedAt": "2025-06-18T04:16:53.275+00:00",
+      "owner": "text-search-and-refine"
+    },
+    {
+      "title": "TextSearchInfra",
+      "description": "S3 buckets and DynamoDB tables for Text Search",
+      "relativePath": "component/textsearchinfra/index.html",
+      "modifiedAt": "2025-06-17T04:16:52.991+00:00",
+      "owner": "text-search-and-refine"
+    },
+    {
+      "title": "customeraccountsbenthos docs",
+      "description": "A Benthos pipeline monorepo for orchestrating bidirectional data flows between Kafka and SNS.",
+      "relativePath": "component/customeraccountsbenthos/index.html",
+      "modifiedAt": "2025-06-05T04:15:47.817+00:00",
+      "owner": "customer-accounts-auth-identity"
+    },
+    {
+      "title": "TbbDatamodule-docs",
+      "description": "Service behind the orderscreen in TMS - secondary/hotswap deployment",
+      "relativePath": "component/tbbdatamoduleplbgrosecondary/index.html",
+      "modifiedAt": "2024-11-14T04:16:10.042+00:00",
+      "owner": "order-issue-resolution"
+    },
+    {
+      "title": "courierlocationprocessor docs",
+      "description": "Benthos processor to create new topics from the main courier location data stream topic.",
+      "relativePath": "component/courierlocationprocessor/index.html",
+      "modifiedAt": "2025-04-10T04:15:32.468+00:00",
+      "owner": "courier-live"
+    },
+    {
+      "title": "Artifactory",
+      "description": "A service to store various type of artifacts within Takeaway.",
+      "relativePath": "component/tkwyartifactory/index.html",
+      "modifiedAt": "2025-03-11T09:18:22.128+00:00",
+      "owner": "continuous-delivery-engineering"
+    },
+    {
+      "title": "CatalogueTranslationsWorker",
+      "description": "Produces translations for product catalogues.",
+      "relativePath": "component/cataloguetranslationsworker/index.html",
+      "modifiedAt": "2025-08-15T04:15:31.257+00:00",
+      "owner": "catalogue-platform"
+    },
+    {
+      "title": "Consumer Help",
+      "description": "API to serve info to consumer help centre across platforms",
+      "relativePath": "component/consumerhelpapi/index.html",
+      "modifiedAt": "2025-07-24T04:15:41.603+00:00",
+      "owner": "advisor-experience"
+    },
+    {
+      "title": "contentbrandprojection docs",
+      "description": "Lambda functions for brand projection",
+      "relativePath": "component/contentbrandprojection/index.html",
+      "modifiedAt": "2025-03-22T04:15:38.59+00:00",
+      "owner": "content"
+    },
+    {
+      "title": "ContentImagesOcus.API",
+      "description": "API and Worker to fetch images from OCUS and upload them to Cloudinary CDN",
+      "relativePath": "component/contentimagesocus/index.html",
+      "modifiedAt": "2025-05-01T04:15:44.087+00:00",
+      "owner": "content"
+    },
+    {
+      "title": "Zendesk Panorama",
+      "description": "Zendesk application to display a users views",
+      "relativePath": "component/zendeskpanorama/index.html",
+      "modifiedAt": "2025-03-04T04:16:34.243+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "TMS-CustomerProcessor Docs",
+      "description": "Service for processing customer change events and persisting these in elasticsearch",
+      "relativePath": "component/tmscustomerprocessor/index.html",
+      "modifiedAt": "2025-06-13T04:16:52.832+00:00",
+      "owner": "order-issue-prevention"
+    },
+    {
+      "title": "Zendesk Conditional Fields",
+      "description": "Zendesk application to help determine which fields are required when populating a ticket",
+      "relativePath": "component/conditionalfields/index.html",
+      "modifiedAt": "2025-02-28T04:15:38.562+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "TMS-OrderProcessor Docs",
+      "description": "Service for processing order events and persisting these in elasticsearch",
+      "relativePath": "component/tmsorderprocessor/index.html",
+      "modifiedAt": "2025-06-13T04:16:55.131+00:00",
+      "owner": "order-issue-prevention"
+    },
+    {
+      "title": "Content Menu Sync Docs",
+      "description": "Lambda to manage synching of image data to menu",
+      "relativePath": "component/contentmenusync/index.html",
+      "modifiedAt": "2025-07-11T04:15:47.287+00:00",
+      "owner": "content"
+    },
+    {
+      "title": "Consumer Help Lambda",
+      "description": "Lambda functions to sync help articles in Zendesk",
+      "relativePath": "component/consumerhelplambda/index.html",
+      "modifiedAt": "2025-05-23T04:15:42.719+00:00",
+      "owner": "advisor-experience"
+    },
+    {
+      "title": "claimsauthenticityservice docs",
+      "description": "Verifies the legitimacy of a customer claim based on a variety of signals, and creates reporting for claim outcomes. This is the Worker service of the Claims Authenticity Service, its responsible for handling events from internal JET features and processing them accordingly.",
+      "relativePath": "component/claimsauthenticityserviceworker/index.html",
+      "modifiedAt": "2025-10-21T04:15:47.064+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "Content Brand Image Exploder Docs",
+      "description": "Lambda functions for uploading brand images",
+      "relativePath": "component/contentbrandimageexploder/index.html",
+      "modifiedAt": "2025-10-18T04:15:48.46+00:00",
+      "owner": "content"
+    },
+    {
+      "title": "worktimeworker docs",
+      "description": "Worktime worker is OneApp helper produce fullstate event based on restaurant's worktime/exception events.",
+      "relativePath": "component/worktimeworker/index.html",
+      "modifiedAt": "2025-03-11T04:16:42.396+00:00",
+      "owner": "partner-availability"
+    },
+    {
+      "title": "claimsauthenticitydataprojection docs",
+      "description": "A dotnet worker to populate the projection of claims authenticity data for use within the CCAS space",
+      "relativePath": "component/claimsauthenticitydataworker/index.html",
+      "modifiedAt": "2025-10-24T04:15:38.658+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "Sonic Documentation",
+      "description": "Documentation for Sonic the JET Developer Platform",
+      "relativePath": "component/sonicdocumentation/index.html",
+      "modifiedAt": "2025-11-05T21:20:43.56+00:00",
+      "owner": "developer-experience"
+    },
+    {
+      "title": "claimsauthenticitydataprojection docs",
+      "description": "An API to retrieve the projection of claims authenticity data for use within the CCAS space",
+      "relativePath": "component/claimsauthenticitydataapi/index.html",
+      "modifiedAt": "2025-10-24T04:15:33.758+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "Codeflow documentation",
+      "description": "GitHub automation for repositories",
+      "relativePath": "component/codeflowbot/index.html",
+      "modifiedAt": "2025-01-30T09:12:28.869+00:00",
+      "owner": "codeflow"
+    },
+    {
+      "title": "claimsauthenticityservice docs",
+      "description": "Verifies the legitimacy of a customer claim based on a variety of signals, and creates reporting for claim outcomes. This is the API of the Claims Authenticity Service, and is responsible for providing RESTful API endpoints for consumers to send requests, it also send requests upstream to 3rd party tools and other internal features at JET.",
+      "relativePath": "component/claimsauthenticityserviceapi/index.html",
+      "modifiedAt": "2025-10-21T04:15:45.056+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "Clean Up Tickets Engine",
+      "description": "Lambda functions to periodically clean up tickets in Zendesk",
+      "relativePath": "component/cleanupticketsengine/index.html",
+      "modifiedAt": "2025-02-27T04:15:26.941+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "Zendesk Event Bridge",
+      "description": "Streams events from Zendesk into the JET platform via Amazon EventBridge",
+      "relativePath": "component/zendeskeventbridge/index.html",
+      "modifiedAt": "2025-02-28T04:16:53.206+00:00",
+      "owner": "customer-claims-authenticity-and-segmentation"
+    },
+    {
+      "title": "Home",
+      "description": "Global API supporting customer account operations (Creation, Deletion, ID Mapping)",
+      "relativePath": "component/accountapi/index.html",
+      "modifiedAt": "2025-07-15T04:18:30.186+00:00",
+      "owner": "customer-accounts-auth-identity"
+    },
+    {
+      "title": "Home",
+      "description": "Global authentication service, home of global login.",
+      "relativePath": "component/authenticationservice/index.html",
+      "modifiedAt": "2025-10-23T04:15:35.694+00:00",
+      "owner": "customer-accounts-auth-identity"
+    },
+    {
+      "title": "autosubscriber docs",
+      "description": "Add topic subscription for all JustSaying (SNS/SQS) events to be processed by the BigQuery Real-time Ingestion Pipeline",
+      "relativePath": "component/autosubscriber/index.html",
+      "modifiedAt": "2025-01-31T04:15:22.181+00:00",
+      "owner": "data-platforms-streaming"
+    },
+    {
+      "title": "AddressgeocodingApi",
+      "description": "Lightweight API to provide geocoding functionality",
+      "relativePath": "component/addressgeocodingapi/index.html",
+      "modifiedAt": "2025-11-05T04:18:40.298+00:00",
+      "owner": "location-services"
+    },
+    {
+      "title": "brazeproducer docs",
+      "description": "Cloud Function to update Braze customer profiles from BigQuery",
+      "relativePath": "component/brazeproducer/index.html",
+      "modifiedAt": "2024-03-25T07:48:32.847+00:00",
+      "owner": "data-platforms-streaming"
+    },
+    {
+      "title": "Actions Runner Controller (ARC)",
+      "description": "Actions Runner Controller - Enables Actions runner hosting in EKS",
+      "relativePath": "component/arc/index.html",
+      "modifiedAt": "2025-01-21T04:15:19.002+00:00",
+      "owner": "continuous-delivery-engineering"
+    },
+    {
+      "title": "Home",
+      "description": "Lambdas to map account events between Takeaway and JustEat",
+      "relativePath": "component/accountmappingslambdas/index.html",
+      "modifiedAt": "2025-04-11T04:15:18.081+00:00",
+      "owner": "customer-accounts-choice"
+    },
+    {
+      "title": "AutocompleteApi",
+      "description": "Lightweight API to provide address autocomplete functionality",
+      "relativePath": "component/autocompleteapi/index.html",
+      "modifiedAt": "2025-11-05T04:18:43.441+00:00",
+      "owner": "location-services"
+    }
+  ]
+}

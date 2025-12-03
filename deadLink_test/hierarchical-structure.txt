@@ -1,0 +1,1209 @@
+📁 [CAT] Concept
+  📄 [DOC] developer-documentation-best-practices docs
+  📄 [DOC] Customer Pillar
+  📄 [DOC] Sonic Runtime (OneEKS)
+    📄 [DOC] Faq
+    📄 [DOC] Features
+    📁 [CAT] Administer
+      📁 [CAT] Best Practices
+        📁 [CAT] Iac
+          📄 [DOC] Helm And Helmfile
+        📁 [CAT] Kubernetes
+          📄 [DOC] Pod Topology Spread Constrains
+      📄 [DOC] Incident Management
+        📁 [CAT] Disaster Recovery
+          📄 [DOC] Eks
+      📁 [CAT] Runbooks
+        📁 [CAT] Atlantis
+          📄 [DOC] Concurrently
+          📄 [DOC] Locking
+          📄 [DOC] New Account
+          📄 [DOC] New Repository
+          📄 [DOC] No Plan
+        📁 [CAT] Kubernetes
+          📄 [DOC] Resize Pvc
+      📁 [CAT] Services
+        📁 [CAT] EKS
+          📄 [DOC] Upgrade
+        📁 [CAT] Atlantis
+          📄 [DOC] Usage
+          📄 [DOC] What Is Atlantis
+      📁 [CAT] Team
+        📄 [DOC] Sdlc
+    📁 [CAT] Concepts
+      📄 [DOC] Bulkheads
+      📄 [DOC] Disaster Recovery
+      📄 [DOC] Leases
+      📄 [DOC] One Secrets
+      📄 [DOC] Projects
+    📁 [CAT] Contribute
+      📄 [DOC] Contribute To Sonic Runtime Docs
+    📄 [DOC] Getting Started
+      📄 [DOC] Onboard A Project
+      📄 [DOC] Onboard A Team
+      📄 [DOC] Request Access To Tools
+      📄 [DOC] Setup Required Tools
+      📁 [CAT] Onboard An Application
+        📄 [DOC] Application Initiation
+        📄 [DOC] Helm Chart Setup
+        📄 [DOC] Prerequisites
+        📄 [DOC] Build And Deploy
+          📄 [DOC] Build Pr Workflow
+          📄 [DOC] Deploy Pr Workflows
+          📄 [DOC] Diff Pr Workflows
+          📄 [DOC] Main Deployment Workflow
+          📄 [DOC] Rollbacks
+          📄 [DOC] Sonic Pipeline
+          📄 [DOC] Github Actions
+            📄 [DOC] Build Pr Workflow
+            📄 [DOC] Deploy Pr Workflows
+            📄 [DOC] Diff Pr Workflows
+            📄 [DOC] Main Deployment Workflow
+            📄 [DOC] Rollbacks
+    📁 [CAT] Reference
+      📄 [DOC] External Nat Ips
+      📄 [DOC] Karpenter
+      📄 [DOC] Managed Alerts List
+      📄 [DOC] Scaleops
+      📄 [DOC] Terminology
+    📁 [CAT] Tasks
+      📁 [CAT] Manage Projects
+        📄 [DOC] Change Project Ownership
+        📄 [DOC] Increase Project Quotas
+      📁 [CAT] Manage Secrets
+        📄 [DOC] Github Actions
+        📄 [DOC] Manage Secrets Using Vault
+        📄 [DOC] Migrating Secrets
+        📄 [DOC] One Secret
+        📄 [DOC] Read Secrets From Oneeks Vault In Cloudops
+        📄 [DOC] Read Secrets From Oneeks Vault In Refarch
+        📄 [DOC] Read Secrets From Oneeks Vault In Sre
+        📁 [CAT] Migration
+          📄 [DOC] Cloudops
+          📄 [DOC] Refarch
+          📄 [DOC] Skipthedishes
+          📄 [DOC] Sre
+      📁 [CAT] Monitoring Observability Debugging
+        📄 [DOC] Tagging
+        📄 [DOC] Debug Troubleshoot
+          📄 [DOC] Events
+          📄 [DOC] Kubernetes
+          📄 [DOC] Logs
+          📄 [DOC] Metrics
+          📄 [DOC] Service Catalog
+          📁 [CAT] Command Line
+            📄 [DOC] Kubectl Debug
+          📄 [DOC] Helmfile Deployments
+            📄 [DOC] Another Operation In Progress
+            📄 [DOC] Gha Sync Errors
+        📄 [DOC] Logging
+          📄 [DOC] Dotnet
+          📄 [DOC] Enabling Istio Access Log
+        📄 [DOC] Metrics Tracing
+          📄 [DOC] Dotnet
+        📄 [DOC] Monitors Alerts
+          📄 [DOC] Create Monitors Terraform
+          📄 [DOC] Create Monitors Ui
+          📄 [DOC] Pd Integration
+          📄 [DOC] Silence Prometheus Alerts
+      📁 [CAT] Networking
+        📄 [DOC] Connect Apps With Services
+        📄 [DOC] Expose Service Externally
+        📄 [DOC] Expose Service Internally
+        📄 [DOC] Istio Service Mesh
+      📁 [CAT] Pci
+        📄 [DOC] Manual Changes
+      📄 [DOC] Platform Transition
+        📄 [DOC] L Je Ec2
+          📄 [DOC] Environment Mapping
+          📄 [DOC] L Je Ec2 Sonic Runtime Traffic Split
+          📄 [DOC] Prometheus Metrics
+          📄 [DOC] Sonic Vs L Je Ec2
+        📄 [DOC] Marathon
+          📄 [DOC] Marathon Sonic Runtime Traffic Split
+        📄 [DOC] Refarch
+          📄 [DOC] Environment Mapping
+          📄 [DOC] Refarch Sonic Runtime Traffic Split
+          📄 [DOC] Sonic Vs Refarch
+        📁 [CAT] Skip
+          📄 [DOC] Skip Environment Mapping
+          📄 [DOC] Skip Java Ecs To Sonic Runtime
+          📄 [DOC] Support Skip Internal Domains
+      📁 [CAT] Run Applications
+        📄 [DOC] Ensure The App Is Production Ready
+        📄 [DOC] Kubernetes Leader Election
+        📄 [DOC] Messaging Applications Migration
+        📄 [DOC] Run Benthos
+        📄 [DOC] Select Node Capacity Type
+        📄 [DOC] Advanced Scaling
+          📄 [DOC] Cloudwatch
+          📄 [DOC] Cpu Memory
+          📄 [DOC] Cron
+          📄 [DOC] Kafka
+        📁 [CAT] Canary Releases
+          📄 [DOC] Deploy Canary
+          📄 [DOC] Rollout Notifications
+      📁 [CAT] Use Cloud Resources
+        📄 [DOC] Cross Account Dynamodb Access
+        📄 [DOC] Pipelines Using Aws Resources
+        📄 [DOC] Using Aws Resources
+        📄 [DOC] Dynamodb
+          📄 [DOC] Specifications File
+          📄 [DOC] Update Policy
+          📄 [DOC] User Guide
+        📄 [DOC] S3
+          📄 [DOC] Jet S3 Workflow
+          📄 [DOC] Specifications File
+          📄 [DOC] Update Policy
+    📄 [DOC] Tutorials
+      📄 [DOC] Deploy With Helm
+      📄 [DOC] Deploy With Helmfile
+      📄 [DOC] Hello Sonic Runtime
+      📄 [DOC] Manage Config With Helmfile
+  📄 [DOC] Observability Documentation
+    📄 [DOC] Alerting
+      📄 [DOC] Alertmanager
+        📁 [CAT] Application Alerts
+          📄 [DOC] Basics
+          📄 [DOC] Creating Alerts
+          📄 [DOC] Deploying Alerts
+          📄 [DOC] Teardown Alerts
+          📄 [DOC] Testing Alerts
+      📁 [CAT] Datadog
+        📄 [DOC] Monitoring Alerting
+      📄 [DOC] Pagerduty
+        📄 [DOC] General Guidance
+        📄 [DOC] Realerting
+        📄 [DOC] Support
+      📄 [DOC] Unifiedalerting
+        📄 [DOC] Add Feature
+        📄 [DOC] Configure Environment
+        📄 [DOC] Configure Feature
+        📄 [DOC] Configure Subscriptions
+        📄 [DOC] Default Rules
+        📄 [DOC] Folder Structure
+        📄 [DOC] Gui
+        📄 [DOC] Override Rules
+        📄 [DOC] Pr Process
+        📄 [DOC] Rules Configuration
+        📄 [DOC] Silencing Alerts
+    📄 [DOC] Guides
+      📁 [CAT] Datadog
+        📁 [CAT] Admin
+          📄 [DOC] Create Api Keys
+          📄 [DOC] Create Team Logs Pipeline
+          📄 [DOC] Fetch Logs
+          📄 [DOC] Log Index Setup
+          📄 [DOC] Logs Access Management
+          📄 [DOC] Rehydrate Archived Logs In Datadog
+        📁 [CAT] User
+          📄 [DOC] Access
+          📄 [DOC] Alerting Tarot
+          📄 [DOC] Creating Monitors
+          📄 [DOC] Enabling Dd Agent Ecs
+          📄 [DOC] Enriching Teams Services
+          📄 [DOC] Lambda Extension
+          📄 [DOC] Opentelemetry Tracing
+          📄 [DOC] Querying Aggregating Metrics
+          📄 [DOC] Required Tags
+          📄 [DOC] Rum Sampling
+          📄 [DOC] Sending Apm Data Eks
+      📁 [CAT] Grafana
+        📄 [DOC] Adding Synthetic Monitoring Checks
+        📄 [DOC] Dashboard Recovery
+      📁 [CAT] Misc
+        📄 [DOC] Adding Telemetry Ecs
+        📄 [DOC] Exporting Cloudwatch Metrics
+        📄 [DOC] Java Graphite Instrumentation
+        📄 [DOC] Je Elastalert To Datadog
+        📄 [DOC] Je Elk To Dd
+        📄 [DOC] Je Es Grafana Dash To Dd
+      📁 [CAT] Prometheus
+        📄 [DOC] Exporting Ec2 Prometheus Metrics
+        📄 [DOC] Exporting Eks Prometheus Metrics
+        📄 [DOC] Exporting Lambda Prometheus Metrics
+        📄 [DOC] Getting Started
+        📄 [DOC] Instrumenting Apps
+        📄 [DOC] Instrumenting Net App
+        📄 [DOC] Migrating From Graphite
+        📄 [DOC] Prometheus Grafana Alertmanager
+    📄 [DOC] Guild
+      📄 [DOC] Tech Radar
+      📁 [CAT] Community
+        📄 [DOC] Contents
+      📁 [CAT] Minutes
+        📄 [DOC] Contents
+    📄 [DOC] Logging
+      📄 [DOC] Grafana
+      📄 [DOC] Cloudwatch
+        📄 [DOC] Instrumentation
+        📄 [DOC] Log Retention
+      📄 [DOC] Datadog
+        📄 [DOC] Facets Attributes Aliasing
+        📄 [DOC] Json Logging
+        📄 [DOC] Logs To Metrics
+        📄 [DOC] Pipelines
+        📄 [DOC] Retention
+        📄 [DOC] Sending Viewing Logs
+        📄 [DOC] Tagging
+      📄 [DOC] Kibana
+        📁 [CAT] Application Logs
+          📄 [DOC] Eks
+          📄 [DOC] Structured Logging
+        📁 [CAT] Concepts
+          📄 [DOC] Field Types
+        📁 [CAT] Querying
+          📄 [DOC] Basics
+          📄 [DOC] Kibana Query Language
+          📄 [DOC] Lucene Query Syntax
+      📁 [CAT] Kubernetes
+        📄 [DOC] Container Logging
+    📄 [DOC] Metrics And Visualization
+      📄 [DOC] Cloudwatch
+      📄 [DOC] Datadog
+        📄 [DOC] Adding Metadata
+        📄 [DOC] Dashboards
+        📄 [DOC] Sending Metrics
+      📄 [DOC] Grafana
+        📄 [DOC] Querying Basics
+      📄 [DOC] Prometheus
+        📁 [CAT] Concepts
+          📄 [DOC] Data Model
+          📄 [DOC] Jobs And Instances
+          📄 [DOC] Metric And Label Naming
+          📄 [DOC] Metric Types
+        📁 [CAT] Querying
+          📄 [DOC] Basics
+          📄 [DOC] Combining
+          📄 [DOC] Counters
+          📄 [DOC] Filtering
+          📄 [DOC] Gauges
+          📄 [DOC] Histograms
+          📄 [DOC] Quick Start
+          📄 [DOC] Summaries
+    📄 [DOC] Practices
+      📄 [DOC] General Guidance
+      📄 [DOC] Trace Semantics
+      📁 [CAT] Operations
+        📄 [DOC] Observability By Default
+      📁 [CAT] Technology
+        📄 [DOC] Open Standards Open Source
+    📄 [DOC] Tools
+      📄 [DOC] Datadog Architecture
+    📄 [DOC] Tracing
+      📄 [DOC] Aws Xray
+      📄 [DOC] Datadog
+        📄 [DOC] Connect Traces Logs
+        📄 [DOC] Continuous Profiling
+        📄 [DOC] Custom Instrumentation
+        📄 [DOC] Deployment Tracking
+        📄 [DOC] Live Search Analytics
+        📄 [DOC] Service Catalog
+        📄 [DOC] Service Map
+        📄 [DOC] Service Performance Dashboard
+      📄 [DOC] Grafana
+        📄 [DOC] Datasources
+      📄 [DOC] Open Telemetry
+        📄 [DOC] Dotnet
+        📄 [DOC] Endpointconfig
+        📄 [DOC] Guidance
+        📄 [DOC] Span Association
+        📄 [DOC] Special Usecases
+        📄 [DOC] Troubleshooting
+  📄 [DOC] Load-Testing Documentation
+    📄 [DOC] Faq
+    📄 [DOC] Global Core Order Flow
+    📄 [DOC] Guidance
+    📄 [DOC] Types Of Testing
+    📄 [DOC] Understanding Capacity
+    📁 [CAT] Getting Started
+      📄 [DOC] Best Practices
+      📄 [DOC] Http Testing
+      📄 [DOC] K6 Projects
+      📄 [DOC] Load Zones
+      📄 [DOC] Onboarding
+      📄 [DOC] Test Validation
+      📄 [DOC] Triggering Tests
+      📄 [DOC] Worker Testing
+    📁 [CAT] K6
+      📁 [CAT] Runbook
+        📄 [DOC] Access Aws Resources
+        📄 [DOC] Dedicated Ips
+        📄 [DOC] Emergency Stop
+        📄 [DOC] Github Runners
+        📄 [DOC] Load Test Metrics
+        📄 [DOC] Private Load Zone Deployment
+        📄 [DOC] Xk6 Build
+    📁 [CAT] Rambo
+      📄 [DOC] Access
+      📄 [DOC] Faq
+      📄 [DOC] General Concepts
+      📄 [DOC] Scheduled Tests
+      📁 [CAT] Creating A Test
+        📄 [DOC] Adding A Test Plan To Rambo
+        📄 [DOC] Creating Artillery Test
+        📄 [DOC] Creating Taurus Test
+        📄 [DOC] Implementing Secrets
+        📄 [DOC] Starting Out
+        📁 [CAT] Jmeter
+          📄 [DOC] Creating Jmeter Test
+          📄 [DOC] Jmeter Dpi Issue
+          📄 [DOC] Requests Per Second
+      📁 [CAT] Runbook
+        📄 [DOC] Clear Redis Queue
+        📄 [DOC] Environment Vars
+        📄 [DOC] Inspect Fargate Container
+        📄 [DOC] Stop All Tests
+        📄 [DOC] Users And Restaurants
+        📁 [CAT] Deployments And Infrastructure
+          📄 [DOC] Adding A New Environment
+          📄 [DOC] Architecture
+          📄 [DOC] Environments
+    📁 [CAT] Test Configuration
+      📄 [DOC] Notifications
+      📄 [DOC] Private Load Zones
+      📄 [DOC] Profiles
+      📄 [DOC] Scheduling
+      📄 [DOC] Secrets
+      📄 [DOC] Thresholds
+  📄 [DOC] Kafka Center of Excellence
+    📁 [CAT] Developing
+      📄 [DOC] Client Configuration
+      📄 [DOC] Creating Service Account
+      📄 [DOC] Kafka Connect Sre
+      📄 [DOC] Managing Service Permissions
+      📄 [DOC] Managing Topics
+      📄 [DOC] Naming Topics
+      📄 [DOC] Schema Registry
+      📁 [CAT] Kafka Connect Refarch
+        📄 [DOC] Table Of Contents
+        📄 [DOC] What Is Kakfa Connect
+        📄 [DOC] Troubleshooting
+        📁 [CAT] Components
+          📄 [DOC] Connect Cluster
+          📄 [DOC] Connectors
+        📁 [CAT] Runbooks
+          📄 [DOC] Common Connector Failures
+          📄 [DOC] Connect Cluster Failure
+          📄 [DOC] Correct App Group
+          📄 [DOC] Dynamodb Sink Connector Failure
+          📄 [DOC] Jdbc Sink Connector Failure
+          📄 [DOC] Remove Connector
+          📄 [DOC] Splunk Sink Connector Failure
+          📄 [DOC] Sqs Source Connector Failure
+        📁 [CAT] Tutorial
+          📄 [DOC] Prerequisites
+          📄 [DOC] Step 1
+          📄 [DOC] Step 2
+          📄 [DOC] Step 3
+          📄 [DOC] Step 4
+          📄 [DOC] Step 5
+          📄 [DOC] Step 6
+    📁 [CAT] Getting Started
+      📄 [DOC] Confluent Cloud Access
+      📄 [DOC] Kafka Adrs
+      📄 [DOC] Learning Material
+      📄 [DOC] Platform Overview
+    📁 [CAT] Operating
+      📄 [DOC] Alerting
+      📄 [DOC] Confluent And Kafka Cli
+      📄 [DOC] Confluent Support
+      📄 [DOC] How To Reset Consumer Offsets
+      📄 [DOC] Limits
+      📄 [DOC] Monitoring
+  📄 [DOC] Architecture Standards & Constraints
+    📄 [DOC] Constraint Template
+    📄 [DOC] Constraints
+    📄 [DOC] Contributing
+    📄 [DOC] Golden Paths
+    📄 [DOC] Hosting
+      📄 [DOC] Cnstrnt077 Use Iis On Ec2
+      📄 [DOC] Cnstrnt078 Use Containers
+      📄 [DOC] Cnstrnt079 Use Aws Lambda
+      📄 [DOC] Cnstrnt080 Use Marathon
+      📄 [DOC] Cnstrnt081 Use Ecs
+      📄 [DOC] Cnstrnt082 Use Eks
+      📄 [DOC] Cnstrnt093 Use Podman
+      📄 [DOC] Cnstrnt094 Use Colima
+      📄 [DOC] Cnstrnt095 Use Rancher
+      📄 [DOC] Cnstrnt096 Use Docker Desktop
+    📄 [DOC] Interoperability
+      📄 [DOC] Cnstrnt001 Use Snssqs For Messaging
+      📄 [DOC] Cnstrnt002 Use Kafka For Series Events Streams
+      📄 [DOC] Cnstrnt003 Use Cloud Events For Metadata
+      📄 [DOC] Cnstrnt004 Use Json Or Avro For The Message Body
+      📄 [DOC] Cnstrnt005 Use Confluent Schema Registry
+      📄 [DOC] Cnstrnt007 Use Asyncapi To Document Messaging Endpoint
+      📄 [DOC] Cnstrnt008 Use Messaging And Eventing For Service Interop
+      📄 [DOC] Cnstrnt009 Use A Proxy For Http Service Interop
+      📄 [DOC] Cnstrnt010 Use Http For Interop With Web And Mobile
+      📄 [DOC] Cnstrnt011 Use Openapi For Http Endpoints
+      📄 [DOC] Cnstrnt012 Use Mqtt For Interop With Web And Mobile
+      📄 [DOC] Cnstrnt013 Use Graphql For Http Endpoints
+      📄 [DOC] Cnstrnt083 Use Smart Gateway North South Http
+      📄 [DOC] Cnstrnt084 Use Redpanda Connect For Ecst
+      📄 [DOC] Cnstrnt085 Use Redpanda Connect As An Eib
+      📄 [DOC] Cnstrnt091 Use Cloudflare
+      📄 [DOC] Cnstrnt092 Use Cloudinary
+      📄 [DOC] Cnstrnt118 Use Pubnub
+      📄 [DOC] Cnstrnt122 Use Kafka Connect
+      📄 [DOC] Cnstrnt123 Use Rabbitmq For Messaging
+      📄 [DOC] Cnstrnt138 Use Flink For Streaming Pipelines
+    📄 [DOC] Languages And Runtimes
+      📄 [DOC] Cnstrnt014 Adopt Polyglot Programming
+      📄 [DOC] Cnstrnt015 Use Php
+      📄 [DOC] Cnstrnt016 Use Csharp
+      📄 [DOC] Cnstrnt017 Use Java
+      📄 [DOC] Cnstrnt019 Use Golang
+      📄 [DOC] Cnstrnt047 Use Python
+      📄 [DOC] Cnstrnt067 Use Javascript
+      📄 [DOC] Cnstrnt068 Use Typescript
+      📄 [DOC] Cnstrnt069 Use Cplusplus
+      📄 [DOC] Cnstrnt070 Use Kotlin
+      📄 [DOC] Cnstrnt071 Use Ruby
+      📄 [DOC] Cnstrnt072 Use Swift
+      📄 [DOC] Cnstrnt073 Use Scala
+      📄 [DOC] Cnstrnt074 Use Fsharp
+      📄 [DOC] Cnstrnt075 Use Objective C
+      📄 [DOC] Cnstrnt076 Use Lua
+      📄 [DOC] Cnstrnt089 Use Rust
+    📄 [DOC] Platform
+      📄 [DOC] Cnstrnt006 Adopt Otel Messaging Semantic Conventions
+      📄 [DOC] Cnstrnt020 Use Vault For Secrets
+      📄 [DOC] Cnstrnt021 Use One Config For Configuration
+      📄 [DOC] Cnstrnt022 Use Artifactory For Artifact Storage
+      📄 [DOC] Cnstrnt023 Use Ghes For Scm
+      📄 [DOC] Cnstrnt024 Use Gha For Ci
+      📄 [DOC] Cnstrnt025 Use Argo For K8s Cd
+      📄 [DOC] Cnstrnt026 Use Platform Metadata For Metadata
+      📄 [DOC] Cnstrnt027 Use Backstage As Service Catalog
+      📄 [DOC] Cnstrnt034 Use Jet Environment Specs
+      📄 [DOC] Cnstrnt035 Use Golden Signals
+      📄 [DOC] Cnstrnt036 Use Datadog For Apm Traces Logs Monitors
+      📄 [DOC] Cnstrnt037 Use Sentry For Frontend
+      📄 [DOC] Cnstrnt038 Use Grafana For Monitoring
+      📄 [DOC] Cnstrnt039 Use Grafana For Rich Metric Data
+      📄 [DOC] Cnstrnt040 Use Confluence For General Docs
+      📄 [DOC] Cnstrnt041 Use Techdocs For Docs
+      📄 [DOC] Cnstrnt046 Use Otel For Telemetry
+      📄 [DOC] Cnstrnt048 Use Dynamodb
+      📄 [DOC] Cnstrnt049 Use Mongodb Atlas
+      📄 [DOC] Cnstrnt050 Use S3
+      📄 [DOC] Cnstrnt051 Use Aws Opensearch
+      📄 [DOC] Cnstrnt052 Use Aws Elasticache Redis
+      📄 [DOC] Cnstrnt053 Use Aws Elasticache Memcached
+      📄 [DOC] Cnstrnt054 Use Aurora Mysql
+      📄 [DOC] Cnstrnt055 Use Aurora Postgresql
+      📄 [DOC] Cnstrnt056 Use Aws Rds Mssql
+      📄 [DOC] Cnstrnt057 Use Aurora Serverless
+      📄 [DOC] Cnstrnt058 Use Terraform
+      📄 [DOC] Cnstrnt059 Use Terragrunt
+      📄 [DOC] Cnstrnt060 Use Pulumi
+      📄 [DOC] Cnstrnt061 Use Cloudformation
+      📄 [DOC] Cnstrnt062 Use Serverless Framework
+      📄 [DOC] Cnstrnt063 Use Ansible For Provisioning
+      📄 [DOC] Cnstrnt064 Use Aws Cdk For Provisioning
+      📄 [DOC] Cnstrnt065 Use Golang For Provisioning
+      📄 [DOC] Cnstrnt066 Use Serverless Framework For Lambda Cd
+      📄 [DOC] Cnstrnt086 Use Gitlab For Scm
+      📄 [DOC] Cnstrnt087 Use Gitlab For Ci Cd
+      📄 [DOC] Cnstrnt088 Use Python For Provisioning
+      📄 [DOC] Cnstrnt119 Anaconda Python
+      📄 [DOC] Cnstrnt120 Snowplow
+      📄 [DOC] Cnstrnt121 Google Tag Manager
+      📄 [DOC] Cnstrnt124 Elk Stack
+      📄 [DOC] Cnstrnt125 Datadog Auto Telemetry
+      📄 [DOC] Cnstrnt126 Statsd
+      📄 [DOC] Cnstrnt127 Prometheus
+      📄 [DOC] Cnstrnt128 Graphite
+      📄 [DOC] Cnstrnt129 Use Aws Opensearch Vectordb
+      📄 [DOC] Cnstrnt130 Pgvector Vectordb
+      📄 [DOC] Cnstrnt131 Use Aws Scheduler
+      📄 [DOC] Cnstrnt132 Use Quartz Scheduler
+      📄 [DOC] Cnstrnt134 Use Temporal For Durable Execution
+      📄 [DOC] Cnstrnt135 Use Aws Step Functions
+      📄 [DOC] Cnstrnt136 Use Cassandra
+      📄 [DOC] Cnstrnt137 Sonic Portal
+      📄 [DOC] Cnstrnt139 Odl
+      📄 [DOC] Cnstrnt140 K6 For Load Testing
+      📄 [DOC] Cnstrnt141 Consul
+      📄 [DOC] Cnstrnt142 Atlantis
+    📄 [DOC] Security
+      📄 [DOC] Cnstrnt028 Use Ta Aws Sso For Aws Access
+      📄 [DOC] Cnstrnt029 Use Je Aws Sso For Aws Access
+      📄 [DOC] Cnstrnt030 Use Azure Ad For Aws Access
+      📄 [DOC] Cnstrnt031 Use Okta For Internal Iam
+      📄 [DOC] Cnstrnt032 Use Adfs For Internal Iam
+      📄 [DOC] Cnstrnt033 Use Azure Ad For Internal Iam
+      📄 [DOC] Cnstrnt042 Use Keycloak For External Iam
+      📄 [DOC] Cnstrnt043 Use Cognito For External Iam
+      📄 [DOC] Cnstrnt044 Use Identityserver For External Iam
+      📄 [DOC] Cnstrnt045 Use Identityserver For Customer Iam
+      📄 [DOC] Cnstrnt097 Use Wiz
+      📄 [DOC] Cnstrnt098 Use Wiz Code For Sca
+      📄 [DOC] Cnstrnt099 Use Semgrep For Sast
+      📄 [DOC] Cnstrnt100 Use Splunk For Sec Logging
+      📄 [DOC] Cnstrnt101 Use Cloudflare For Waf
+      📄 [DOC] Cnstrnt102 Use Cribl For Sec Logging
+      📄 [DOC] Cnstrnt103 Use Cloudtrail For Aws Sec Auditing
+      📄 [DOC] Cnstrnt104 Use Cortex Xsoar
+      📄 [DOC] Cnstrnt105 Use Guard Duty
+      📄 [DOC] Cnstrnt106 Use Carbon Black
+      📄 [DOC] Cnstrnt107 Use Fastly Waf
+      📄 [DOC] Cnstrnt108 Use Human For Web Clients
+      📄 [DOC] Cnstrnt109 Use Cortex Xdr
+      📄 [DOC] Cnstrnt110 Use Tenable
+      📄 [DOC] Cnstrnt111 Use Cortex Xsiam
+      📄 [DOC] Cnstrnt112 Use Wiz Sensor
+      📄 [DOC] Cnstrnt113 Gcp Security Command Center
+      📄 [DOC] Cnstrnt114 Gcp Audit Logs
+      📄 [DOC] Cnstrnt115 Google Workspace Logs
+      📄 [DOC] Cnstrnt116 Azure Activity Logs
+      📄 [DOC] Cnstrnt117 Microsoft Defender
+  📄 [DOC] Right To Be Forgotten
+    📄 [DOC] Guides
+      📄 [DOC] Component Tagging
+      📄 [DOC] Rtbf Process Integration
+    📄 [DOC] Overview
+      📄 [DOC] Customer Data
+      📄 [DOC] Handling Request
+      📄 [DOC] Key Terms
+    📄 [DOC] Processing Requests
+      📄 [DOC] Data Lake
+      📄 [DOC] Registered Components
+      📄 [DOC] Triggering
+  📄 [DOC] Chaos Engineering Documentation
+    📁 [CAT] Chaosengineering
+      📄 [DOC] Intro To Chaos Eng
+      📄 [DOC] Chaos Check List
+      📄 [DOC] Lambda Chaos
+      📄 [DOC] Worker Chaos
+    📁 [CAT] Chaostoolkit
+      📄 [DOC] Chaostoolkit
+    📁 [CAT] Designdocs
+      📄 [DOC] Config Design
+      📄 [DOC] Deployment
+      📄 [DOC] Workflow
+  📄 [DOC] Cosign Documentation
+    📄 [DOC] Common Errors
+    📄 [DOC] Faq
+    📄 [DOC] Getting Started
+    📄 [DOC] Limitations And Future Work
+    📄 [DOC] Test Scenarios
+  📄 [DOC] API Design Standards
+    📄 [DOC] Design Guidelines
+      📄 [DOC] Webhooks
+      📄 [DOC] Data Types
+        📄 [DOC] Links
+        📄 [DOC] Location
+      📁 [CAT] General
+        📄 [DOC] Api First
+        📄 [DOC] Localisation
+        📄 [DOC] Security
+        📄 [DOC] Style
+      📄 [DOC] Resources
+        📄 [DOC] Caching
+        📄 [DOC] Errors
+        📄 [DOC] Headers
+        📄 [DOC] Partner Id Interoperability
+        📄 [DOC] Querying
+        📄 [DOC] Status Code
+        📄 [DOC] Status
+        📄 [DOC] Uploading Binary Content
+        📄 [DOC] Verbs
+        📄 [DOC] Versioning
+    📁 [CAT] Documenting Apis
+      📁 [CAT] Reference
+        📄 [DOC] Tags
+      📁 [CAT] Tutorials
+        📄 [DOC] Create A New Api
+  📄 [DOC] Platform Metadata
+    📄 [DOC] Teams
+    📄 [DOC] Departments
+    📄 [DOC] Environments
+    📄 [DOC] Aws Accounts
+    📄 [DOC] Sub Departments
+    📄 [DOC] App Groups
+    📄 [DOC] Named Ranges
+    📄 [DOC] Platforms
+    📄 [DOC] Projects
+    📄 [DOC] What Uses Pm
+    📄 [DOC] Global Features
+      📄 [DOC] 01 Lifecycle Process
+      📄 [DOC] 02 Component Type
+  📄 [DOC] Career Framework
+    📄 [DOC] Job Descriptions
+      📄 [DOC] F Jet Technology Manager
+      📄 [DOC] G Jet Senior Technology Manager
+      📄 [DOC] H Jet Head Of Engineering
+  📄 [DOC] platform-observability docs
+    📁 [CAT] Apps
+      📄 [DOC] Grafana
+      📄 [DOC] Observabilityscout
+      📄 [DOC] Otelcollector
+      📄 [DOC] Vectorlogforwarder
+      📄 [DOC] Vectorlogprocessor
+    📁 [CAT] Argo Cd
+      📄 [DOC] Applicationsets
+  📄 [DOC] Architecture Principles
+    📁 [CAT] Design
+      📄 [DOC] Accessible By Design
+      📄 [DOC] Asynchronous Conversations
+      📄 [DOC] Low Blast Radius
+      📄 [DOC] Microservices
+      📄 [DOC] Satisfy Quality Attribute Requirements
+      📄 [DOC] Scale Out Not Up
+    📁 [CAT] Operations
+      📄 [DOC] Cloud Native
+      📄 [DOC] Observability By Default
+      📄 [DOC] Prioritize Fast Feedback
+      📄 [DOC] Rich In Metadata
+    📁 [CAT] Organisation
+      📄 [DOC] Build The Core Domain
+    📁 [CAT] Securityandcompliance
+      📄 [DOC] Data Protection As A Feature
+      📄 [DOC] Secure By Design
+      📄 [DOC] Zero Trust
+    📁 [CAT] Technology
+      📄 [DOC] Keep Pace With Change
+      📄 [DOC] Open Standards Open Source
+    📁 [CAT] Waysofworking
+      📄 [DOC] Change Warranty
+      📄 [DOC] Golden Paths
+      📄 [DOC] Lightweight Documentation
+      📄 [DOC] Prefer Automation
+      📄 [DOC] Prefer Simplicity
+      📄 [DOC] Steer With Data
+  📄 [DOC] EKS Documentation
+    📁 [CAT] Cd
+      📄 [DOC] ECR
+      📄 [DOC] Introduction
+      📄 [DOC] Pipeline
+    📁 [CAT] Ci
+      📄 [DOC] Base Images
+      📄 [DOC] Introduction
+      📄 [DOC] Sonarqube
+    📁 [CAT] Deployments
+      📄 [DOC] Adhoc Deployments
+      📄 [DOC] Config Only Pipelines
+      📄 [DOC] Deployment Strategies
+      📄 [DOC] Pipeline Deployments
+      📁 [CAT] Canary Rollout
+        📄 [DOC] Getting Started
+        📄 [DOC] Visibility
+        📄 [DOC] Rollbacks
+    📁 [CAT] Onboarding
+      📄 [DOC] App Groups
+      📄 [DOC] Platform Capabilities
+      📁 [CAT] Migrations
+        📄 [DOC] Dotnet
+          📄 [DOC] Getting Started
+          📄 [DOC] App Secrets
+          📄 [DOC] Messaging
+          📄 [DOC] Deployment Config
+          📄 [DOC] Deployments
+          📄 [DOC] Scaffolder
+          📄 [DOC] Prometheus
+          📄 [DOC] Docker File
+          📄 [DOC] Docker Compose
+          📄 [DOC] Pipeline
+          📄 [DOC] App Config
+          📄 [DOC] Logging
+          📄 [DOC] Iam Permissions
+          📁 [CAT] Traffic Switchover
+            📄 [DOC] Introduction
+            📄 [DOC] Traffic Switchover Web
+            📄 [DOC] Traffic Switchover Worker
+      📄 [DOC] New Apps
+        📄 [DOC] Getting Started
+        📄 [DOC] Docker File
+        📄 [DOC] Onboarding
+        📄 [DOC] Deployment Config
+      📁 [CAT] Third Party Apps
+        📄 [DOC] Getting Started
+        📄 [DOC] Onboarding
+        📄 [DOC] Deployment Config
+    📁 [CAT] Operating
+      📄 [DOC] Faqs
+      📄 [DOC] Health Checking
+      📄 [DOC] Resource Limits
+      📄 [DOC] Scaling
+      📄 [DOC] Troubleshooting
+      📄 [DOC] Visibility
+      📁 [CAT] Rightsizing Pods
+        📄 [DOC] Introduction
+        📄 [DOC] Calculating Initial Scaling
+        📄 [DOC] Example Api Service
+        📄 [DOC] Example Worker Service
+  📄 [DOC] Inner Source'
+    📄 [DOC] Contributing
+    📁 [CAT] Component Owning Teams
+      📄 [DOC] Architecture Decision Records
+      📄 [DOC] Backstage Docs
+      📄 [DOC] Setup
+      📄 [DOC] Trusted Committers
+      📁 [CAT] Templates
+        📄 [DOC] Contributing
+        📄 [DOC] Team Communication
+  📄 [DOC] continuous-delivery-engineering
+    📄 [DOC] Introduction
+    📁 [CAT] Amis
+      📄 [DOC] Ami Pipelines
+      📄 [DOC] Image Builds Repo
+      📄 [DOC] Packer Repo
+      📄 [DOC] Sox Ami Hardening
+    📄 [DOC] Contributions
+      📄 [DOC] Ansible Roles
+      📄 [DOC] Framework
+      📄 [DOC] Infra Tests
+    📁 [CAT] Deployments
+      📄 [DOC] Asg Pipeline
+      📄 [DOC] Deployment Rollbacks
+      📄 [DOC] Feature Orchestration
+      📄 [DOC] Generic Pipeline
+      📄 [DOC] Oneapp
+      📄 [DOC] Smp Ec2 Deployment Guide
+      📄 [DOC] Smp Generic Deployment Guide
+    📄 [DOC] Infra Docs
+      📄 [DOC] Ec2
+        📄 [DOC] Asg Lifecycle Hooks
+        📄 [DOC] Canary Deployments
+        📄 [DOC] Iam Instance Profile
+        📄 [DOC] Rolling Update Methods
+        📄 [DOC] Scaling Example
+      📁 [CAT] Grafana
+        📄 [DOC] Dashboards
+        📄 [DOC] Visibility
+      📁 [CAT] Pipeline Configuration
+        📄 [DOC] Alerts
+        📄 [DOC] Inventory
+        📄 [DOC] Load Balancing
+        📄 [DOC] Network
+        📄 [DOC] Pipeline
+        📄 [DOC] Recording Rules
+        📄 [DOC] Scaling
+        📄 [DOC] Scheduled Redeployments
+    📁 [CAT] Miscellaneous
+      📄 [DOC] Cloudfront Failover
+      📄 [DOC] Infra Tests
+      📄 [DOC] Tear Down
+      📄 [DOC] Waps
+  📄 [DOC] Architecture Practices
+    📁 [CAT] Design
+      📄 [DOC] Dont Repeat Yourself
+      📄 [DOC] Simple Apis Complex Implementations
+      📄 [DOC] Single Schema Definition Per Domain
+      📄 [DOC] Smart Endpoints Dumb Pipes
+      📄 [DOC] Tolerant Reader
+    📁 [CAT] Integration
+      📁 [CAT] Events
+        📄 [DOC] Event Carried State Transfer
+    📁 [CAT] Operations
+      📄 [DOC] Continuous Delivery
+      📄 [DOC] Respect The Running System
+      📄 [DOC] Sufficient Auditing And Logging Of Significant Events
+      📄 [DOC] Testing In Production
+      📄 [DOC] Walking Skeleton And Incremental Re Architecture
+    📁 [CAT] Organization
+      📄 [DOC] Build Teams Considering Business Boundaries
+      📄 [DOC] Build To Be Global Adapt To Be Local
+    📁 [CAT] Securityandcompliance
+      📄 [DOC] Always Fail Safely And Securely
+      📄 [DOC] Always Identify Review And Test Vulnerable Components
+      📄 [DOC] Always Use Secure Defaults
+      📄 [DOC] Assign The Least Privilege Possible
+      📄 [DOC] Enforce Encryption Of Data At Rest And In Transit
+      📄 [DOC] Enforce Strong Authorisation And Authentication
+      📄 [DOC] Implement Defence In Depth
+      📄 [DOC] Never Rely Solely Upon Security Through Obscurity
+      📄 [DOC] Protect Secure And Monitor Application And User Secrets
+      📄 [DOC] Restrict Access To Data Based On Classification
+      📄 [DOC] Segregation Of Environments Pci Specific
+      📄 [DOC] Separation Of Privileged And Non Privileged Processes Or Events
+    📁 [CAT] Technology
+      📄 [DOC] Right Tool For The Job
+      📄 [DOC] Technological Decoupling
+    📁 [CAT] Waysofworking
+      📄 [DOC] Boundary Architecture
+  📄 [DOC] Engineering Metrics
+    📄 [DOC] Alerting Metrics
+    📄 [DOC] Big Query Dataset
+    📄 [DOC] Contirbution
+    📄 [DOC] Dashboard
+    📄 [DOC] Metadata Ingestion
+    📄 [DOC] Metric Keys
+    📄 [DOC] Metric Types
+    📄 [DOC] Orders Metric
+    📄 [DOC] Sonar Qube Metrics
+    📄 [DOC] Track Anything
+  📄 [DOC] continuous-delivery-engineering
+    📁 [CAT] Newstarter
+      📄 [DOC] Architecture
+      📄 [DOC] Furtherreading
+      📄 [DOC] Overview
+      📄 [DOC] Principlesandpractices
+      📄 [DOC] Shippingcode
+      📄 [DOC] Terminology
+      📁 [CAT] Gettingstarted
+        📄 [DOC] Mac
+        📄 [DOC] Windows
+      📁 [CAT] Handbook
+        📄 [DOC] Careerdevelopment
+        📄 [DOC] Engpublicrepos
+        📄 [DOC] Events
+        📄 [DOC] Feedback
+        📄 [DOC] Guides
+        📄 [DOC] Knowledgesharing
+        📄 [DOC] Onboarding
+        📄 [DOC] Overview
+        📄 [DOC] Personaldevelopment
+        📄 [DOC] Slack
+        📄 [DOC] Stayinginformed
+      📁 [CAT] Howwecode
+        📄 [DOC] Ci
+        📄 [DOC] Github
+        📄 [DOC] Githublabels
+        📄 [DOC] Pull Requests
+        📄 [DOC] Responsibility
+        📄 [DOC] Testing
+      📄 [DOC] Tutorials
+        📄 [DOC] Aws Central Access
+        📄 [DOC] First Commit And Deployment
+        📄 [DOC] Platform Metadata
+        📄 [DOC] Scorecard
+  📄 [DOC] JET Engineering Playbook
+    📁 [CAT] Archive
+      📁 [CAT] Agile Development
+        📄 [DOC] Whole Team Working
+      📁 [CAT] Automated Testing
+        📄 [DOC] Acceptance Tests
+        📄 [DOC] Developer Tests
+        📄 [DOC] Software Testing Strategy
+      📁 [CAT] Start Here
+        📄 [DOC] Autonomy Within A Framework
+        📄 [DOC] Contents
+      📁 [CAT] Writing Code
+        📄 [DOC] Repos
+        📄 [DOC] Writing Code
+    📄 [DOC] Build
+      📁 [CAT] Testing
+        📄 [DOC] Acceptance Criteria
+        📄 [DOC] Acceptance Tests Best Practices
+        📄 [DOC] Acceptance Tests
+        📄 [DOC] Accessibility Tests
+        📄 [DOC] Continuous Delivery
+        📄 [DOC] Developer Tests Best Practices
+        📄 [DOC] Developer Tests
+        📄 [DOC] Exploratory Testing
+        📄 [DOC] Performance Testing
+        📄 [DOC] Philosophy
+        📄 [DOC] Smoke Tests
+        📄 [DOC] Test Pyramid
+        📄 [DOC] Ui Tests
+    📄 [DOC] Design
+      📁 [CAT] Architectural Vision
+        📄 [DOC] Haiku
+        📄 [DOC] Planes Guardrails
+      📁 [CAT] Conversational Architecture
+        📄 [DOC] Architecture Advice Forum
+        📄 [DOC] Architecture Advice Hub
+        📄 [DOC] Architecture Decision Record
+        📄 [DOC] Practices
+        📄 [DOC] Principles
+        📄 [DOC] Standards
+        📄 [DOC] Techradar
+    📄 [DOC] Life Daily
+      📁 [CAT] Career
+        📄 [DOC] Career
+      📁 [CAT] Glossary
+        📄 [DOC] Terminology
+      📁 [CAT] Incidents
+        📄 [DOC] Production Incidents
+    📄 [DOC] Life Learning
+      📁 [CAT] Stay Informed
+        📄 [DOC] Jetflix
+    📄 [DOC] Run
+      📁 [CAT] Observability
+        📄 [DOC] Wide Events
+      📁 [CAT] Security
+        📄 [DOC] Threat Modellng
+  📄 [DOC] continuous-delivery-engineering
+    📁 [CAT] Delco
+      📄 [DOC] User Journeys
+      📄 [DOC] Requirements
+      📄 [DOC] Onboarding
+      📄 [DOC] Building
+      📄 [DOC] Deploying
+      📄 [DOC] 1 Dns Migration
+      📄 [DOC] Operating
+      📄 [DOC] Faq Troubleshooting Guide
+      📄 [DOC] Post Migration
+      📄 [DOC] Validating Configuration And Setup
+      📄 [DOC] Additional Information Branching Strategy
+  📄 [DOC] JET Environments
+    📄 [DOC] Faqs
+    📁 [CAT] Specifications
+      📄 [DOC] Dns And Service Discovery
+      📄 [DOC] Terminology
+      📄 [DOC] Naming Standards
+      📄 [DOC] Resource Tagging
+      📄 [DOC] Base Aws Infrastructure
+      📄 [DOC] Web Ingress
+      📄 [DOC] Application Network
+      📄 [DOC] Network Subnet Structure
+      📄 [DOC] Overview
+      📁 [CAT] Superseded
+        📄 [DOC] Terminology
+        📄 [DOC] Naming Standards
+  📄 [DOC] OneMenu docs
+    📁 [CAT] Menu Schemas
+      📄 [DOC] JetConnect Schema
+      📄 [DOC] L JE Schema
+      📄 [DOC] L TA Schema
+      📄 [DOC] Skip Schema
+  📄 [DOC] Platform docs
+    📄 [DOC] Teams
+    📁 [CAT] Assets
+      📁 [CAT] Images
+        📄 [DOC] Aws Accounts
+    📁 [CAT] Environments
+      📄 [DOC] Aws Accounts
+      📄 [DOC] Naming Standards
+      📄 [DOC] Terminology
+      📁 [CAT] Eks
+        📄 [DOC] Pod Iam
+        📄 [DOC] Rightsizing Eks Pods
+        📄 [DOC] Runbook
+        📁 [CAT] Clusters
+          📄 [DOC] Cluster Roles
+          📄 [DOC] Core Services
+          📄 [DOC] Metrics Server
+          📄 [DOC] Provisioning
+          📄 [DOC] State Metrics
+          📁 [CAT] Upgrade
+            📄 [DOC] Validations
+            📄 [DOC] Upgrading Control Plane
+            📄 [DOC] Upgrading Data Plane
+            📄 [DOC] Known Issues
+            📄 [DOC] Upgrade
+        📁 [CAT] Istio
+          📄 [DOC] Istio
+          📄 [DOC] Service Entries
+        📁 [CAT] Node Groups
+          📄 [DOC] App Groups
+          📄 [DOC] Autoscaler
+          📄 [DOC] Eks Teardown
+      📁 [CAT] Guides
+        📄 [DOC] Account Creation
+        📄 [DOC] Account Decommission
+      📄 [DOC] Reference Architecture
+        📄 [DOC] Accounts Traffic
+        📄 [DOC] Compute Scalability
+        📄 [DOC] Config Telemetry
+        📄 [DOC] Security Access
+          📄 [DOC] Network Security
+        📄 [DOC] Onboarding
+          📄 [DOC] Eks Requirements
+      📁 [CAT] Route53
+        📄 [DOC] Internal Resolution
+        📄 [DOC] Overview
+      📁 [CAT] Transit Gateway Network Firewall
+        📄 [DOC] Overview
+      📁 [CAT] Transit Gateway
+        📄 [DOC] Overview
+    📁 [CAT] Secretsmanagementvault
+      📄 [DOC] Accessing Vault
+      📄 [DOC] How Okta Oidc Is Configured
+      📄 [DOC] Offboarding Features From Secretsmanagementvault
+      📄 [DOC] Overview
+      📄 [DOC] Troubleshooting
+      📁 [CAT] Ami
+        📄 [DOC] Ami Builds
+        📄 [DOC] Ansible Roles
+        📄 [DOC] Building An Ami
+      📄 [DOC] Architecture
+        📄 [DOC] Disaster Recovery
+        📄 [DOC] Pipelines
+        📄 [DOC] Why Vault
+      📄 [DOC] Codeintergration
+        📄 [DOC] Dotnet Csharp Local Development
+        📄 [DOC] Dotnet Csharp
+        📄 [DOC] Nodejs Typescript
+        📄 [DOC] Python
+      📄 [DOC] Onboarding
+        📄 [DOC] Application Onboarding
+        📄 [DOC] Creating Updating Secrets
+        📄 [DOC] Ec2 Secrets Onboarding
+        📄 [DOC] Eks Secrets Onboarding
+        📄 [DOC] Lambda Secrets Onboarding
+        📄 [DOC] Managing Kv Secrets Onboarding
+        📄 [DOC] Rds Secrets Onboarding
+        📄 [DOC] Rds Sox Login
+        📄 [DOC] Vault Integration With Ci
+      📁 [CAT] Operations
+        📄 [DOC] Development Tooling
+        📄 [DOC] Environment Onboarding
+    📁 [CAT] Slacksupportbot
+      📄 [DOC] Slacksupportbot
+  📄 [DOC] Launch Coordination Checklist (LCC)
+    📁 [CAT] Lcc
+      📄 [DOC] Guidelines
+      📄 [DOC] Support
+      📁 [CAT] Components
+        📄 [DOC] rd Party
+        📄 [DOC] Api Service
+        📄 [DOC] Ec2
+        📄 [DOC] Eks
+        📄 [DOC] Lambda
+  📄 [DOC] GitHub Actions
+    📄 [DOC] Dependabot
+    📄 [DOC] Faqs
+    📁 [CAT] Build Workflows
+      📄 [DOC] Available Actions
+      📄 [DOC] Reusable Workflows
+      📄 [DOC] Local Workflows
+      📄 [DOC] Secrets
+      📄 [DOC] Container Builds With Kaniko
+      📄 [DOC] Ami Builds
+      📄 [DOC] Example Build Workflows
+    📄 [DOC] Deployments
+      📁 [CAT] Configuration
+        📄 [DOC] Adding Environments
+        📄 [DOC] Ansible
+        📄 [DOC] End To End Tests
+        📄 [DOC] Secrets Setup
+      📁 [CAT] Operations
+        📄 [DOC] Canary Rollouts
+        📄 [DOC] Pipeline Approvals
+        📄 [DOC] Redeploys Rollbacks
+      📁 [CAT] Workflows
+        📁 [CAT] L JE Ansible Workflows
+          📄 [DOC] Adhoc Jobs
+          📄 [DOC] Alerts Jobs
+          📄 [DOC] Deployment Jobs
+          📄 [DOC] Rollback Jobs
+        📁 [CAT] Other Workflows
+          📄 [DOC] Examples
+          📄 [DOC] Redrive Sqs Dlq
+          📄 [DOC] Terraform Jobs
+    📁 [CAT] Golden Path
+      📄 [DOC] Golden Path Overview
+      📄 [DOC] Repository
+      📄 [DOC] Docker Helm Helmfile
+      📄 [DOC] Variables Secrets
+      📁 [CAT] Workflows
+        📄 [DOC] 1 Workflows Overview
+        📄 [DOC] 2 Build Staging
+        📄 [DOC] 3 Deploy Staging
+        📄 [DOC] 4 Diff Production
+        📄 [DOC] 5 Deploy Production
+    📁 [CAT] Jellyfish
+      📄 [DOC] Overview
+    📁 [CAT] Migration
+      📁 [CAT] Gitlab
+        📄 [DOC] Index
+        📄 [DOC] Pipeline Best Practices
+        📄 [DOC] Actions Importer
+        📄 [DOC] Vault
+        📄 [DOC] Artifactory
+        📄 [DOC] Docker
+        📄 [DOC] Helm Charts
+        📄 [DOC] Helmfile
+        📄 [DOC] Testing
+        📄 [DOC] Faq
+    📁 [CAT] Runners
+      📄 [DOC] Actions Runners
+      📄 [DOC] Operations Past Pis
+      📁 [CAT] Scripts
+        📄 [DOC] Delete All Old Runner Pods
+        📄 [DOC] Remove Finalizers
+        📄 [DOC] Remove Runners Ghes
+    📄 [DOC] Setup
+      📄 [DOC] Gha Auth To Artifactory
+      📄 [DOC] Setup Gha In Organisations
+      📄 [DOC] Setup Gha In Repositories
+      📁 [CAT] Application Setup
+        📄 [DOC] Existing Applications
+        📄 [DOC] New Applications
+      📁 [CAT] Integrations
+        📄 [DOC] Jira
+        📄 [DOC] Slack
+    📁 [CAT] Terraform
+      📁 [CAT] Skip
+        📄 [DOC] Overview
+        📄 [DOC] Terraform Gha Setup
+        📄 [DOC] Terraform Local Development
+        📄 [DOC] Terraform Local State Changes
+  📄 [DOC] Accounts Value Stream
+    📄 [DOC] On Call Cheat Sheet
+    📁 [CAT] OneWeb
+      📄 [DOC] Oneweb Urls
+    📁 [CAT] Archived
+      📄 [DOC] K8s Migration Cms
+    📁 [CAT] Auth
+      📄 [DOC] Risk Check
+    📁 [CAT] Capabilities
+      📁 [CAT] Customer Emails
+        📄 [DOC] Justeat
+        📄 [DOC] Takeaway
+    📁 [CAT] Data
+      📄 [DOC] Big Query Dashboards
+      📄 [DOC] Platform Events
+      📄 [DOC] Splunk
+    📁 [CAT] Guides
+      📄 [DOC] Code Contributions
+      📄 [DOC] Compromised Credential Checking
+      📄 [DOC] Consul Config
+      📄 [DOC] Cookie Technology List
+      📄 [DOC] Deactivating Consumers
+      📄 [DOC] Minor Pr Guidelines
+      📄 [DOC] Multi Factor Authentication
+      📄 [DOC] Pr Release Process
+      📄 [DOC] Ravelin
+      📄 [DOC] Re Captcha
+      📄 [DOC] Revoking Breached Accounts
+      📁 [CAT] ExternalProviders
+        📄 [DOC] Apple
+        📄 [DOC] Facebook
+        📄 [DOC] Google
+        📄 [DOC] SocialProvidersEndpoint
+    📁 [CAT] Runbooks
+      📄 [DOC] Citymeal Customer Accounts
+      📄 [DOC] Customer Communication Preferences Service
+      📄 [DOC] Customer Management Api
+      📄 [DOC] Customer Management Service
+      📄 [DOC] Facebook Oncall
+    📁 [CAT] Troubleshooting
+      📁 [CAT] Customer Emails
+        📄 [DOC] Justeat
+        📄 [DOC] Takeaway
+  📄 [DOC] DIPS Takeaway Platform Support
+    📄 [DOC] Legacy Cloudops
+      📄 [DOC] Access Management
+        📄 [DOC] Aws
+        📄 [DOC] Gain Access
+      📄 [DOC] Dynamodb
+        📄 [DOC] Dax Alerts
+        📄 [DOC] Dynamodb Alerts
+      📄 [DOC] Elasticache
+        📄 [DOC] Elasticache Alerts
+      📄 [DOC] Opensearch
+        📄 [DOC] Cluster
+        📄 [DOC] Opensearch Alerts
+        📄 [DOC] User Access
+      📄 [DOC] Rds
+        📄 [DOC] Cluster
+        📄 [DOC] Mysql User Access
+        📄 [DOC] Postgresql User Access
+        📄 [DOC] Rds Alerts
+    📄 [DOC] Mongodb
+      📄 [DOC] Cluster
+      📄 [DOC] Datadog Adjust Threshold
+      📄 [DOC] Exporting Collections
+      📄 [DOC] Monitoring Atlas
+      📄 [DOC] Monitoring Datadog
+      📄 [DOC] Troubleshooting
+      📄 [DOC] User Access
+    📁 [CAT] Oneeks
+      📄 [DOC] Mysql User Access
+      📄 [DOC] Postgresql User Access

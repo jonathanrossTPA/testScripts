@@ -1,0 +1,18 @@
+{
+  "name": "environment-links-tests",
+  "version": "1.0.0",
+  "description": "Playwright tests for checking dead links in environment responses",
+  "main": "test-environment-links.spec.ts",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,35 @@
+Test Case ID,Requirement / AC / Bug,Test Steps,Expected Result,Jira Link
+TC-SON-2015-01,AC1.1: Dedicated catalog in Sonic portal,1. Navigate to Sonic portal. 2. Locate documentation section.,Catalog is present and accessible from the portal.,https://justeattakeaway.atlassian.net/browse/SON-2015
+TC-SON-2015-02,AC1.2: Catalog search bar filters docs,1. Enter a search term in the catalog search bar. 2. Observe the results.,Results are filtered to docs only by default.,https://justeattakeaway.atlassian.net/browse/SON-2015
+TC-SON-2015-03,AC1.3: Favourites section in catalog,1. Favourite a doc. 2. Go to catalog homepage. 3. Check for Favourites section.,Favourites section displays user-favourited docs.,https://justeattakeaway.atlassian.net/browse/SON-2015
+TC-SON-2015-04,AC1.4: Sort docs by criteria,1. Open catalog. 2. Sort docs by 'Recently Updated', 'Most Popular', 'Highest Rated'.,Docs are sorted as per selected criteria.,https://justeattakeaway.atlassian.net/browse/SON-2015
+TC-SON-2015-05,AC1.5: Filter docs by Owner, Type, Rating,1. Open catalog. 2. Apply filters: Owner, Type, Rating.,Docs list updates according to selected filters.,https://justeattakeaway.atlassian.net/browse/SON-2015
+TC-SON-2015-06,Docs content view,1. Click a doc link in catalog.,Full doc content is displayed in a user-friendly format.,https://justeattakeaway.atlassian.net/browse/SON-2015
+TC-SON-2015-07,AC4.1: Search results filterable,1. Search for a term. 2. Apply filters to results.,Search results update according to filters.,https://justeattakeaway.atlassian.net/browse/SON-2015
+TC-SON-2015-08,AC4.2: Rating system and feedback,1. Open a doc. 2. Rate the doc. 3. Click 'Provide Feedback'.,Rating is saved; feedback form opens and submits successfully.,https://justeattakeaway.atlassian.net/browse/SON-2015
+TC-SON-2015-09,AC4.4: Display page metrics,1. Open a doc. 2. View metrics section.,Page views and unique visitors are displayed.,https://justeattakeaway.atlassian.net/browse/SON-2015
+TC-SON-2015-10,AC4.5: Video and diagram support,1. Open a doc with embedded video/diagram. 2. Play video/view diagram.,Video plays and diagrams render correctly.,https://justeattakeaway.atlassian.net/browse/SON-2015
+TC-SON-2411,Sort by field missing,1. Go to docs main page. 2. Check for 'Sort by' dropdown.,'Sort by' dropdown is present as per design.,https://justeattakeaway.atlassian.net/browse/SON-2411
+TC-SON-2410,Category filter missing,1. Go to docs catalog. 2. Check for Category filter.,Category filter is present with correct values.,https://justeattakeaway.atlassian.net/browse/SON-2410
+TC-SON-2399,URL formatting issues,1. Navigate through doc sections. 2. Observe URL changes.,URLs are well-formatted and update per navigation.,https://justeattakeaway.atlassian.net/browse/SON-2399
+TC-SON-2398,Code block formatting,1. Open doc with code block. 2. Check code block style.,Code blocks use correct font and syntax highlighting.,https://justeattakeaway.atlassian.net/browse/SON-2398
+TC-SON-2397,Images do not load,1. Open doc with images. 2. Check image rendering.,Images load successfully.,https://justeattakeaway.atlassian.net/browse/SON-2397
+TC-SON-2396,Docs count mismatch,1. Compare doc count in Sonic and Backstage.,Doc counts are within expected difference (<10).,https://justeattakeaway.atlassian.net/browse/SON-2396
+TC-SON-2483,Feedback modal issue,1. Rate a doc in table view. 2. Reopen feedback.,Feedback popup opens for new review, not summary.,https://justeattakeaway.atlassian.net/browse/SON-2483
+TC-SON-2484,Sort by DDL reset,1. Change sort order. 2. Try to reset to default.,Option to reset to default sort is available.,https://justeattakeaway.atlassian.net/browse/SON-2484
+TC-SON-2485,Views disappear on reload,1. Sort docs by popularity. 2. Hard reload page.,View counts persist after reload.,https://justeattakeaway.atlassian.net/browse/SON-2485
+TC-SON-2486,View count per doc,1. Open doc and subchapter. 2. Check view KPI.,View count is for main doc, not subchapter.,https://justeattakeaway.atlassian.net/browse/SON-2486
+TC-SON-2488,Faulty hierarchy data,1. Open Observability doc. 2. Check hierarchy and subchapter names.,Hierarchy and names match Backstage.,https://justeattakeaway.atlassian.net/browse/SON-2488
+TC-SON-2489,Subchapter collapse logic,1. Open doc. 2. Expand/collapse subchapters.,Only clicked subchapter opens; others remain closed.,https://justeattakeaway.atlassian.net/browse/SON-2489
+TC-SON-2490,Doc description mismatch,1. Compare doc descriptions in Sonic and Backstage.,Descriptions match between systems.,https://justeattakeaway.atlassian.net/browse/SON-2490
+TC-SON-2491,Search result navigation,1. Search within doc. 2. Click result.,User is navigated to found text.,https://justeattakeaway.atlassian.net/browse/SON-2491
+TC-SON-2498,Mermaid diagrams render,1. Open doc with Mermaid diagram. 2. Observe rendering.,Diagram loads without needing refresh.,https://justeattakeaway.atlassian.net/browse/SON-2498
+TC-SON-2476,Return to home from doc,1. Open doc. 2. Click content item. 3. Try to return to home.,User can return to doc home page.,https://justeattakeaway.atlassian.net/browse/SON-2476
+TC-SON-2477,Duplicate table of content,1. Open doc. 2. Check for table of content sections.,Only one table of content section is present.,https://justeattakeaway.atlassian.net/browse/SON-2477
+TC-SON-2478,Search returns unrelated results,1. Search for a term not in doc/metadata.,No results are returned.,https://justeattakeaway.atlassian.net/browse/SON-2478
+TC-SON-2479,Owner filter vs search,1. Filter by owner. 2. Search for owner. 3. Compare results.,Number of results is consistent.,https://justeattakeaway.atlassian.net/browse/SON-2479
+TC-SON-2480,Data cleaning for display,1. Search for DORA. 2. Check numbers at left.,Data is cleaned and matches Backstage display.,https://justeattakeaway.atlassian.net/browse/SON-2480
+TC-SON-2481,Extra text in doc vs Backstage,1. Open DORA doc in Sonic and Backstage. 2. Compare content.,No extra text in Sonic compared to Backstage.,https://justeattakeaway.atlassian.net/browse/SON-2481
+TC-SON-2482,Search detects all appearances,1. Search for a word in doc. 2. Count appearances.,All appearances are detected and highlighted.,https://justeattakeaway.atlassian.net/browse/SON-2482
+TC-SON-2507,Remove duplicates from doc names,1. Open docs catalog. 2. Check for duplicate names.,No duplicate doc names are present.,https://justeattakeaway.atlassian.net/browse/SON-2507
+TC-SON-2508,Remove concept/component prefix from chapters path,1. Open doc chapters. 2. Check chapter paths.,Paths do not include concept/component prefix.,https://justeattakeaway.atlassian.net/browse/SON-2508
