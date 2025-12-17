@@ -1,0 +1,23 @@
+{
+  "name": "component-third-party-links-tests",
+  "version": "1.0.0",
+  "description": "Extract and test third-party links from component pages using Playwright",
+  "main": "extract-component-links.ts",
+  "scripts": {
+    "extract-links": "ts-node extract-component-links.ts",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/jsdom": "^27.0.0",
+    "@types/node": "^20.10.6",
+    "axios": "^1.6.2",
+    "jsdom": "^23.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
