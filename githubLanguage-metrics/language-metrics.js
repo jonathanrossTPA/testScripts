@@ -1,12 +1,16 @@
 import fetch from "node-fetch";
 import fs from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // ---------------- CONFIG -------------------
 const GITHUB_API_URL = process.env.GITHUB_API_URL || "https://github.je-labs.com/api/v3";
-const TOKEN = process.env.GITHUB_TOKEN;
+const TOKEN = process.env.GH_TOKEN;
 if (!TOKEN) {
-  console.error("Error: GITHUB_TOKEN environment variable not set.");
+  console.error("Error: GH_TOKEN environment variable not set.");
   process.exit(1);
 }
 
@@ -55,7 +59,9 @@ async function main() {
   }
   const sorted = Object.entries(monthlyCounts).sort((a, b) => a[0].localeCompare(b[0]));
   const csv = "month,count\n" + sorted.map(r => r.join(",")).join("\n");
-  const outPath = path.join(path.dirname(new URL(import.meta.url).pathname), "react-repo-metrics.csv");
+  const outPath = path.join(__dirname, "react-repo-metrics.csv");
   fs.writeFileSync(outPath, csv);
   console.log(`Metrics saved to ${outPath}`);
 }
+
+main();

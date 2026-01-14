@@ -10,11 +10,11 @@ const { createObjectCsvWriter } = require("csv-writer");
 // --- CONFIG ---
 // Set your GitHub Enterprise base URL, e.g.
 // https://ghe.mycompany.com/api/v3
-const GITHUB_API = process.env.GITHUB_API_URL;
-const TOKEN = process.env.GITHUB_TOKEN;
+const GITHUB_API = " https://github.je-labs.com/api/v3";
+const TOKEN = process.env.GH_TOKEN;
 
 if (!TOKEN || !GITHUB_API) {
-    console.error("❌ ERROR: Missing environment variables GITHUB_TOKEN or GITHUB_API_URL");
+    console.error("❌ ERROR: Missing environment variables GH_TOKEN or GITHUB_API_URL");
     process.exit(1);
 }
 
